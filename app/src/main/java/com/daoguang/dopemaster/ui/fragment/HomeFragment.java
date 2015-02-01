@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import com.daoguang.dopemaster.R;
 
 /**
+ * 首页Fragment
  * Created by joker on 2015/2/1.
  */
 public class HomeFragment extends Fragment {
