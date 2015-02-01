@@ -1,15 +1,15 @@
 package com.daoguang.dopemaster.base;
 
-import android.app.Activity;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.view.Window;
 
 /**
  * Created by joker on 2015/2/1.
  */
-public abstract class BaseActivity extends Activity implements
+public abstract class BaseActivity extends FragmentActivity implements
         View.OnClickListener {
     private static final int ACTIVITY_RESUME = 0;
     private static final int ACTIVITY_STOP = 1;
