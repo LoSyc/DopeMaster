@@ -111,8 +111,6 @@ public class BottomTabView extends View {
 
     @Override
     protected void onDraw(Canvas canvas) {
-        if(mIconBitmap == null)
-            Log.e("TAG","null");
         canvas.drawBitmap(mIconBitmap, null, mIconRect, null);
 
         int alpha = (int) Math.ceil(255 * mAlpha);
