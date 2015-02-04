@@ -1,20 +1,21 @@
 package com.daoguang.dopemaster.ui.activity.main;
 
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
-import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.daoguang.dopemaster.R;
-
 import com.daoguang.dopemaster.base.BaseActivity;
+import com.daoguang.dopemaster.support.utils.ViewFinder;
 import com.daoguang.dopemaster.ui.fragment.HomeFragment;
 import com.daoguang.dopemaster.ui.fragment.MyFragment;
 import com.daoguang.dopemaster.ui.fragment.OrderFragment;
 import com.daoguang.dopemaster.ui.fragment.ShowFragment;
+import com.daoguang.dopemaster.ui.view.BottomTabView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class MainActivity extends BaseActivity {
@@ -24,105 +25,64 @@ public class MainActivity extends BaseActivity {
     private ShowFragment showFragment;
     private MyFragment myFragment;
 
-    private View homeLayout;
-    private View orderLayout;
-    private View showLayout;
-    private View myLayout;
-
-    private ImageView homeImage;
-    private ImageView orderImage;
-    private ImageView showImage;
-    private ImageView myImage;
-
-    private TextView homeText;
-    private TextView orderText;
-    private TextView showText;
-    private TextView myText;
-
     private FragmentManager fragmentManager;
 
-    private int fragmentIndex ;
-
-    public <T extends View> T getView(int id) {
-            return (T)super.findViewById(id);
-    }
+    private List<BottomTabView> mTabIndicators = new ArrayList<BottomTabView>();
 
     @Override
     public void initWidget() {
         setContentView(R.layout.activity_main);
+        ViewFinder finder = new ViewFinder(this);
 
-        homeLayout = getView(R.id.home_layout);
-        orderLayout = getView(R.id.order_layout);
-        showLayout = getView(R.id.show_layout);
-        myLayout = getView(R.id.my_layout);
+        BottomTabView homeTab = finder.find(R.id.home_tab);
+        mTabIndicators.add(homeTab);
 
-        homeImage = getView(R.id.home_image);
-        orderImage = getView(R.id.order_image);
-        showImage = getView(R.id.show_image);
-        myImage = getView(R.id.my_image);
+        BottomTabView orderTab = finder.find(R.id.order_tab);
+        mTabIndicators.add(orderTab);
 
-        homeText = getView(R.id.home_text);
-        orderText = getView(R.id.order_text);
-        showText = getView(R.id.show_text);
-        myText = getView(R.id.my_text);
+        BottomTabView showTab = finder.find(R.id.show_tab);
+        mTabIndicators.add(showTab);
 
-        homeLayout.setOnClickListener(this);
-        orderLayout.setOnClickListener(this);
-        showLayout.setOnClickListener(this);
-        myLayout.setOnClickListener(this);
+        BottomTabView myTab = finder.find(R.id.my_tab);
+        mTabIndicators.add(myTab);
+
+        homeTab.setOnClickListener(this);
+        orderTab.setOnClickListener(this);
+        showTab.setOnClickListener(this);
+        myTab.setOnClickListener(this);
+
+        homeTab.setIconAlpha(1.0f);
+
     }
 
     @Override
     public void widgetClick(View v) {
-        switch(v.getId()){
-            case R.id.home_layout:
-                //当点击了消息tab时 选中第一个Tab
-                fragmentIndex = 0;
-                setTabSelection(0);
-                break;
-
-            case R.id.order_layout:
-                fragmentIndex = 1;
-                setTabSelection(1);
-                break;
-
-            case R.id.show_layout:
-                fragmentIndex = 2;
-                setTabSelection(2);
-                break;
-
-            case R.id.my_layout:
-                fragmentIndex = 3;
-                setTabSelection(3);
-                break;
-        }
+       clickTab(v);
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        fragmentManager = getFragmentManager();
-        //第一次启动时选中第0个tab
-        setTabSelection(0);
+        fragmentManager = getFragmentMansger();
+
     }
 
     /**
-     * 根据传入的index参数来设置选中的tab页
-     * @param index
-     * 每个tab页对应的下标,0表示首页，1表示订单，2表示展示，3表示我的。
+     * 点击Tab按钮
+     *
+     * @param v
      */
-    private void setTabSelection(int index){
-        //每次选中之前先清除掉上次的选中状态
-        clearSelection();
+    private void clickTab(View v) {
+        resetOtherTabs();
+
         //开启一个Fragment事务
         FragmentTransaction transaction = fragmentManager.beginTransaction();
         //先隐藏掉所有的Fragment 以防止有多个Fragment显示在界面上的情况
         hideFragments(transaction);
-        switch (index){
-            case 0:
-                // 当点击了首页tab时，改变控件的图片和文字颜色
-                homeImage.setImageResource(R.drawable.home_selected);
-                homeText.setTextColor(Color.parseColor("#5F97FA"));
+
+        switch (v.getId()){
+            case R.id.home_tab:
+                mTabIndicators.get(0).setIconAlpha(1.0f);
                 if(homeFragment == null){
                     homeFragment = new HomeFragment();
                     transaction.add(R.id.content,homeFragment);
@@ -131,9 +91,8 @@ public class MainActivity extends BaseActivity {
                 }
                 break;
 
-            case 1:
-                orderImage.setImageResource(R.drawable.order_selected);
-                orderText.setTextColor(Color.parseColor("#5F97FA"));
+            case R.id.order_tab:
+                mTabIndicators.get(1).setIconAlpha(1.0f);
                 if(orderFragment == null){
                     orderFragment = new OrderFragment();
                     transaction.add(R.id.content,orderFragment);
@@ -142,9 +101,8 @@ public class MainActivity extends BaseActivity {
                 }
                 break;
 
-            case 2:
-                showImage.setImageResource(R.drawable.show_selected);
-                showText.setTextColor(Color.parseColor("#5F97FA"));
+            case R.id.show_tab:
+                mTabIndicators.get(2).setIconAlpha(1.0f);
                 if(showFragment == null){
                     showFragment = new ShowFragment();
                     transaction.add(R.id.content,showFragment);
@@ -153,9 +111,8 @@ public class MainActivity extends BaseActivity {
                 }
                 break;
 
-            case 3:
-                myImage.setImageResource(R.drawable.my_selected);
-                myText.setTextColor(Color.parseColor("#5F97FA"));
+            case R.id.my_tab:
+                mTabIndicators.get(3).setIconAlpha(1.0f);
                 if(myFragment == null){
                     myFragment = new MyFragment();
                     transaction.add(R.id.content,myFragment);
@@ -168,17 +125,12 @@ public class MainActivity extends BaseActivity {
     }
 
     /**
-     * 清除掉所有的选中状态
+     * 重置其他的TabIndicator的颜色
      */
-    private void clearSelection(){
-        homeImage.setImageResource(R.drawable.home);
-        homeText.setTextColor(Color.parseColor("#999999"));
-        orderImage.setImageResource(R.drawable.order);
-        orderText.setTextColor(Color.parseColor("#999999"));
-        showImage.setImageResource(R.drawable.show);
-        showText.setTextColor(Color.parseColor("#999999"));
-        myImage.setImageResource(R.drawable.my);
-        myText.setTextColor(Color.parseColor("#999999"));
+    private void resetOtherTabs() {
+        for(int i = 0; i < mTabIndicators.size(); i++){
+            mTabIndicators.get(i).setIconAlpha(0);
+        }
     }
 
     /**

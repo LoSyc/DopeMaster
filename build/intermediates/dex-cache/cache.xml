@@ -2,6 +2,12 @@
 <pre-dex-items>
 
     <item
+        dex="G:\androidCode\DopeMaster\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-749846b244585000e3cfc24171ac992ff6553611.jar"
+        jar="G:\ADT\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
         dex="G:\androidCode\DopeMaster\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-a4d8405553ef1b9b38e21d6a0624c19cce1e1b32.jar"
         jar="G:\androidCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
         jumboMode="false"
@@ -19,11 +25,5 @@
         jumboMode="false"
         revision="19.1.0"
         sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
-    <item
-        dex="G:\androidCode\DopeMaster\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-749846b244585000e3cfc24171ac992ff6553611.jar"
-        jar="G:\ADT\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
 
 </pre-dex-items>

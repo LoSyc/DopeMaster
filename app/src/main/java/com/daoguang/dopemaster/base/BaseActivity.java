@@ -1,8 +1,10 @@
 package com.daoguang.dopemaster.base;
 
+import android.content.Context;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.view.Window;
 
@@ -18,6 +20,8 @@ public abstract class BaseActivity extends FragmentActivity implements
 
     public int activityState;
 
+    private FragmentManager fragmentManager ;
+
     // 是否允许全屏
     private boolean mAllowFullScreen = true;
 
@@ -28,6 +32,11 @@ public abstract class BaseActivity extends FragmentActivity implements
 
     public void setAllowFullScreen(boolean allowFullScreen) {
         this.mAllowFullScreen = allowFullScreen;
+    }
+
+    public FragmentManager getFragmentMansger() {
+        fragmentManager = getSupportFragmentManager();
+        return fragmentManager;
     }
 
     @Override
@@ -93,5 +102,11 @@ public abstract class BaseActivity extends FragmentActivity implements
         activityState = ACTIVITY_DESTROY;
         AppLog.state(this.getClass().getSimpleName(), "---------onDestroy ");
         AppManager.getAppManager().finishActivity(this);
+    }
+
+    // 常用方法  :适配
+    public static int dip2px(Context context, float dipValue) {
+        float scale = context.getResources().getDisplayMetrics().density;
+        return (int) (scale * dipValue + 0.5f);
     }
 }
