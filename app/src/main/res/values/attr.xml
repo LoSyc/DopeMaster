@@ -2,13 +2,13 @@
 <resources>
 
     <attr name="tab_icon" format="reference"></attr>
-    <attr name="color" format="color"></attr>
+    <attr name="tab_color" format="color"></attr>
     <attr name="text" format="string"></attr>
     <attr name="text_size" format="dimension"></attr>
 
     <declare-styleable name="BottomTabView">
         <attr name="tab_icon"></attr>
-        <attr name="color"></attr>
+        <attr name="tab_color"></attr>
         <attr name="text"></attr>
         <attr name="text_size"></attr>
     </declare-styleable>

@@ -14,7 +14,6 @@ import android.os.Bundle;
 import android.os.Looper;
 import android.os.Parcelable;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 
@@ -71,8 +70,8 @@ public class BottomTabView extends View {
                     BitmapDrawable drawable = (BitmapDrawable) a.getDrawable(attr);
                     mIconBitmap = drawable.getBitmap();
                     break;
-                case R.styleable.BottomTabView_color:
-                    mColor = a.getColor(attr, 0xFF45C01A);
+                case R.styleable.BottomTabView_tab_color:
+                    mColor = a.getColor(attr, 0x5F97FA);
                     break;
                 case R.styleable.BottomTabView_text:
                     mText = a.getString(attr);
@@ -111,8 +110,6 @@ public class BottomTabView extends View {
 
     @Override
     protected void onDraw(Canvas canvas) {
-        if(mIconBitmap == null)
-            Log.e("TAG","null");
         canvas.drawBitmap(mIconBitmap, null, mIconRect, null);
 
         int alpha = (int) Math.ceil(255 * mAlpha);
