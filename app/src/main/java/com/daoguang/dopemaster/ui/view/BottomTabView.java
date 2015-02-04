@@ -9,6 +9,7 @@ import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
+import android.graphics.Typeface;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.os.Looper;
@@ -91,6 +92,7 @@ public class BottomTabView extends View {
         mTextPaint = new Paint();
         mTextPaint.setTextSize(mTextSize);
         mTextPaint.setColor(0Xff555555);
+        mTextPaint.setTypeface(Typeface.DEFAULT_BOLD);
         mTextPaint.getTextBounds(mText, 0, mText.length(), mTextBound);
 
     }
