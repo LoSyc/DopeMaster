@@ -94,7 +94,6 @@ public class BottomTabView extends View {
         mTextPaint.setColor(0Xff555555);
         mTextPaint.setTypeface(Typeface.DEFAULT_BOLD);
         mTextPaint.getTextBounds(mText, 0, mText.length(), mTextBound);
-
     }
 
     @Override

@@ -8,10 +8,10 @@ import android.view.View;
 import com.daoguang.dopemaster.R;
 import com.daoguang.dopemaster.base.BaseActivity;
 import com.daoguang.dopemaster.support.utils.ViewFinder;
-import com.daoguang.dopemaster.ui.fragment.HomeFragment;
-import com.daoguang.dopemaster.ui.fragment.MyFragment;
-import com.daoguang.dopemaster.ui.fragment.OrderFragment;
-import com.daoguang.dopemaster.ui.fragment.ShowFragment;
+import com.daoguang.dopemaster.ui.fragment.home.HomeFragment;
+import com.daoguang.dopemaster.ui.fragment.my.MyFragment;
+import com.daoguang.dopemaster.ui.fragment.order.OrderFragment;
+import com.daoguang.dopemaster.ui.fragment.show.ShowFragment;
 import com.daoguang.dopemaster.ui.view.BottomTabView;
 
 import java.util.ArrayList;
@@ -32,6 +32,7 @@ public class MainActivity extends BaseActivity {
     @Override
     public void initWidget() {
         setContentView(R.layout.activity_main);
+        fragmentManager = getTheFragmentManager();
         ViewFinder finder = new ViewFinder(this);
 
         BottomTabView homeTab = finder.find(R.id.home_tab);
@@ -51,7 +52,7 @@ public class MainActivity extends BaseActivity {
         showTab.setOnClickListener(this);
         myTab.setOnClickListener(this);
 
-        homeTab.setIconAlpha(1.0f);
+        clickTab(homeTab);
 
     }
 
@@ -63,7 +64,7 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        fragmentManager = getFragmentMansger();
+
 
     }
 
@@ -75,9 +76,7 @@ public class MainActivity extends BaseActivity {
     private void clickTab(View v) {
         resetOtherTabs();
 
-        //开启一个Fragment事务
         FragmentTransaction transaction = fragmentManager.beginTransaction();
-        //先隐藏掉所有的Fragment 以防止有多个Fragment显示在界面上的情况
         hideFragments(transaction);
 
         switch (v.getId()){
@@ -85,7 +84,7 @@ public class MainActivity extends BaseActivity {
                 mTabIndicators.get(0).setIconAlpha(1.0f);
                 if(homeFragment == null){
                     homeFragment = new HomeFragment();
-                    transaction.add(R.id.content,homeFragment);
+                    transaction.add(R.id.fragmentContainer,homeFragment);
                 }else{
                     transaction.show(homeFragment);
                 }
@@ -95,7 +94,7 @@ public class MainActivity extends BaseActivity {
                 mTabIndicators.get(1).setIconAlpha(1.0f);
                 if(orderFragment == null){
                     orderFragment = new OrderFragment();
-                    transaction.add(R.id.content,orderFragment);
+                    transaction.add(R.id.fragmentContainer,orderFragment);
                 }else{
                     transaction.show(orderFragment);
                 }
@@ -105,7 +104,7 @@ public class MainActivity extends BaseActivity {
                 mTabIndicators.get(2).setIconAlpha(1.0f);
                 if(showFragment == null){
                     showFragment = new ShowFragment();
-                    transaction.add(R.id.content,showFragment);
+                    transaction.add(R.id.fragmentContainer,showFragment);
                 }else{
                     transaction.show(showFragment);
                 }
@@ -115,7 +114,7 @@ public class MainActivity extends BaseActivity {
                 mTabIndicators.get(3).setIconAlpha(1.0f);
                 if(myFragment == null){
                     myFragment = new MyFragment();
-                    transaction.add(R.id.content,myFragment);
+                    transaction.add(R.id.fragmentContainer,myFragment);
                 }else{
                     transaction.show(myFragment);
                 }

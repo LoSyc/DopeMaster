@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--顶部导航栏自定义属性-->
+    <declare-styleable name="TopBar">
+        <attr name="leftIcon" format="reference"/>
+        <attr name="titleText" format="string"/>
+        <attr name="titleTextSize" format="dimension"/>
+        <attr name="titleTextColor" format="color"/>
+        <attr name="rightIcon" format="reference"/>
+        <attr name="leftMargin" format="dimension"/>
+        <attr name="topMargin" format="dimension"/>
+    </declare-styleable>
+
+
+    <!--底部Tab自定义属性-->
+    <declare-styleable name="BottomTabView">
+        <attr name="tab_icon" format="reference"/>
+        <attr name="tab_color" format="color"/>
+        <attr name="text" format="string"/>
+        <attr name="text_size" format="dimension"/>
+    </declare-styleable>
+</resources>

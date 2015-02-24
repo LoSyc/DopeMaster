@@ -5,28 +5,59 @@
         <!-- Customize your theme here. -->
     </style>
 
-
-    <!-- 自定义View样式 -->
-
-    <style name="main_bottom_bar_linear">
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">@dimen/bottom_bar_height</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center</item>
-        <item name="android:orientation">vertical</item>
+    <!--以下是首页布局所用到样式-->
+    <style name="home_content_icon">
+        <item name="android:layout_width">54dp</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
     </style>
 
-    <style name="main_bottom_bar_image">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">30dp</item>
-        <item name="android:layout_marginTop">3dp</item>
-    </style>
-
-    <style name="main_bottom_bar_text">
+    <style name="home_content_text">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">#82858b</item>
-        <item name="android:layout_marginTop">2dp</item>
-        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginTop">22dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+    </style>
+
+    <style name="home_linear_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="home_divider">
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginLeft">120dp</item>
+        <item name="android:background">#B0B0B0</item>
+    </style>
+
+    <style name="home_setting">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#7C7C7C</item>
+    </style>
+
+    <style name="home_setting_divider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:background">#E3E3E3</item>
+    </style>
+
+    <style name="home_setting_linear">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
     </style>
 </resources>

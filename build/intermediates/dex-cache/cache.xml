@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="G:\androidCode\DopeMaster\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-253e83ed7c2a92db54792552990ae8e52b90f540.jar"
-        jar="G:\androidCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03"/>
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-598892d24f35cd3874ae485bb08e59026c5efaaa.jar" />
+    </item>
     <item
-        dex="G:\androidCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-0187adf9e550065e22422f7480955ce3ef47ffcf.jar"
-        jar="G:\androidCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8"/>
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-860bc52cf531568049eac0f168c9400d44eeec42.jar" />
+    </item>
     <item
-        dex="G:\androidCode\DopeMaster\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-6946be4c504f76119cfac30efb46bf52f9325737.jar"
         jar="G:\ADT\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35"/>
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-6946be4c504f76119cfac30efb46bf52f9325737.jar" />
+    </item>
     <item
-        dex="G:\androidCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-aa72d0cb8f72e7dfdbb74b46f554bf4527cac2cf.jar"
-        jar="G:\androidCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7"/>
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-46e3c417eb9fc9e7c6d9f670bf2a6b79ca74e4b4.jar" />
+    </item>
 
-</pre-dex-items>
+</items>

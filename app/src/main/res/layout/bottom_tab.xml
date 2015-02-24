@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:padding="5dp"
-        custom:tab_icon="@drawable/home"
+        custom:tab_icon="@mipmap/home"
         custom:text="@string/tab_home"
         custom:text_size="14sp"
         custom:tab_color="#5F97FA"/>
@@ -23,7 +23,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:padding="5dp"
-        custom:tab_icon="@drawable/order"
+        custom:tab_icon="@mipmap/order"
         custom:text="@string/tab_order"
         custom:text_size="14sp"
         custom:tab_color="#5F97FA"/>
@@ -34,7 +34,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:padding="5dp"
-        custom:tab_icon="@drawable/show"
+        custom:tab_icon="@mipmap/show"
         custom:text="@string/tab_show"
         custom:text_size="14sp"
         custom:tab_color="#5F97FA"/>
@@ -45,7 +45,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:padding="5dp"
-        custom:tab_icon="@drawable/my"
+        custom:tab_icon="@mipmap/my"
         custom:text="@string/tab_my"
         custom:text_size="14sp"
         custom:tab_color="#5F97FA"/>
