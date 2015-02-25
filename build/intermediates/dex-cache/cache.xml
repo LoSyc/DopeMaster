@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-46e3c417eb9fc9e7c6d9f670bf2a6b79ca74e4b4.jar" />
+    </item>
+    <item
         jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -16,6 +23,20 @@
         <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-860bc52cf531568049eac0f168c9400d44eeec42.jar" />
     </item>
     <item
+        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\DopeMaster\InfiniteIndicator\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d0646a0672ea07424e75f93bf62b06124bf1dae5">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-411c4c85bc6e7f0bbdcc68fe0b9d7e6a49743df9.jar" />
+    </item>
+    <item
+        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\DopeMaster\slidingMenu\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0556235b1977832774101438f9a57d0cac93618c">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-333db9b04f67ae81fde1f83fae02b6d42e74419a.jar" />
+    </item>
+    <item
         jar="G:\ADT\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -23,11 +44,18 @@
         <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-6946be4c504f76119cfac30efb46bf52f9325737.jar" />
     </item>
     <item
-        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-46e3c417eb9fc9e7c6d9f670bf2a6b79ca74e4b4.jar" />
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\picasso-2.4.0-d309035bb4fb6583fec38e2342ec2dd4a4890f0b.jar" />
+    </item>
+    <item
+        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\library-2.4.0-5f4418a856055eedfe13ab22d294f3bf5cf04996.jar" />
     </item>
 
 </items>

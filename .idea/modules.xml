@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DopeMaster.iml" filepath="$PROJECT_DIR$/DopeMaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InfiniteIndicator/InfiniteIndicator.iml" filepath="$PROJECT_DIR$/InfiniteIndicator/InfiniteIndicator.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingMenu/slidingMenu.iml" filepath="$PROJECT_DIR$/slidingMenu/slidingMenu.iml" />
     </modules>
   </component>
 </project>

@@ -18,12 +18,9 @@
         custom:topMargin="2dp"/>
 
     <!--广告布局-->
-    <FrameLayout
-        android:id="@+id/advertisement"
+    <include layout="@layout/home_advertising_layout"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:background="#ffccbb">
-    </FrameLayout>
+        android:layout_height="200dp"/>
 
     <!--内容布局-->
     <LinearLayout

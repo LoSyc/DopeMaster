@@ -7,18 +7,21 @@ import android.view.View;
 
 import com.daoguang.dopemaster.R;
 import com.daoguang.dopemaster.base.BaseActivity;
+import com.daoguang.dopemaster.support.callBack.ShowSlidingMenuListener;
 import com.daoguang.dopemaster.support.utils.ViewFinder;
 import com.daoguang.dopemaster.ui.fragment.home.HomeFragment;
+import com.daoguang.dopemaster.ui.fragment.home.LeftHomeFragment;
 import com.daoguang.dopemaster.ui.fragment.my.MyFragment;
 import com.daoguang.dopemaster.ui.fragment.order.OrderFragment;
 import com.daoguang.dopemaster.ui.fragment.show.ShowFragment;
 import com.daoguang.dopemaster.ui.view.BottomTabView;
+import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class MainActivity extends BaseActivity {
+public class MainActivity extends BaseActivity implements ShowSlidingMenuListener {
 
     private HomeFragment homeFragment;
     private OrderFragment orderFragment;
@@ -52,6 +55,7 @@ public class MainActivity extends BaseActivity {
         showTab.setOnClickListener(this);
         myTab.setOnClickListener(this);
 
+        initSlidingMenu();
         clickTab(homeTab);
 
     }
@@ -62,10 +66,8 @@ public class MainActivity extends BaseActivity {
     }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
     }
 
     /**
@@ -155,4 +157,33 @@ public class MainActivity extends BaseActivity {
         }
     }
 
+    public void initSlidingMenu() {
+        // 设置左侧滑动菜单
+        setBehindContentView(R.layout.home_left_frme);
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.leftHome_frame, new LeftHomeFragment()).commit();
+
+        // 实例化滑动菜单对象
+        SlidingMenu sm = getSlidingMenu();
+        // 设置可以左右滑动的菜单
+        sm.setMode(SlidingMenu.LEFT);
+        // 设置滑动阴影的宽度
+        sm.setShadowWidthRes(R.dimen.shadow_width);
+        // 设置滑动菜单阴影的图像资源
+        sm.setShadowDrawable(null);
+        // 设置滑动菜单视图的宽度
+        sm.setBehindOffsetRes(R.dimen.slidingmenu_offset);
+        // 设置渐入渐出效果的值
+        sm.setFadeDegree(0.35f);
+        // 设置触摸屏幕的模式,这里设置为全屏
+        sm.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
+        // 设置下方视图的在滚动时的缩放比例
+        sm.setBehindScrollScale(0.0f);
+    }
+
+
+    @Override
+    public void showSlidingMenu() {
+        toggle();
+    }
 }

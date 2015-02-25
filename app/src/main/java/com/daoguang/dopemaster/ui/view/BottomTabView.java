@@ -137,7 +137,6 @@ public class BottomTabView extends View {
         int x = getMeasuredWidth() / 2 - mTextBound.width() / 2;
         int y = mIconRect.bottom + mTextBound.height();
         canvas.drawText(mText, x, y, mTextPaint);
-
     }
 
     /**
@@ -152,7 +151,6 @@ public class BottomTabView extends View {
         int x = getMeasuredWidth() / 2 - mTextBound.width() / 2;
         int y = mIconRect.bottom + mTextBound.height();
         canvas.drawText(mText, x, y, mTextPaint);
-
     }
 
     /**

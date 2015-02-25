@@ -22,4 +22,7 @@
     <string name="home_setting_check_update">检查更新</string>
     <string name="home_setting_version_update">当前版本v1.0</string>
     <string name="home_setting_service_clause">服务条款</string>
+
+    <string name="home_left_choseCity">已选择城市</string>
+    <string name="home_left_city">珠海</string>
 </resources>

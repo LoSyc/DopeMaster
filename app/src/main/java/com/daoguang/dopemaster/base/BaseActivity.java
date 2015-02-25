@@ -2,14 +2,17 @@ package com.daoguang.dopemaster.base;
 
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.view.Window;
+
+
+import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
+
 /**
  * Created by joker on 2015/2/1.
  */
-public abstract class BaseActivity extends FragmentActivity implements
+public abstract class BaseActivity extends SlidingFragmentActivity implements
         View.OnClickListener {
     private static final int ACTIVITY_RESUME = 0;
     private static final int ACTIVITY_STOP = 1;
@@ -49,7 +52,7 @@ public abstract class BaseActivity extends FragmentActivity implements
      ***************************************************************************/
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         AppLog.debug(this.getClass() + "---------onCreat ");
         // 竖屏锁定
