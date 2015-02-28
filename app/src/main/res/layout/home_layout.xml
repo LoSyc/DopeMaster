@@ -12,7 +12,7 @@
         custom:leftIcon="@mipmap/location"
         custom:rightIcon="@mipmap/setting"
         custom:titleText="@string/home_title_bar"
-        custom:titleTextSize="25sp"
+        custom:titleTextSize="15sp"
         custom:titleTextColor="#FFFFFF"
         custom:leftMargin="15dp"
         custom:topMargin="2dp"/>
@@ -20,7 +20,7 @@
     <!--广告布局-->
     <include layout="@layout/home_advertising_layout"
         android:layout_width="match_parent"
-        android:layout_height="200dp"/>
+        android:layout_height="115dp"/>
 
     <!--内容布局-->
     <LinearLayout
@@ -39,7 +39,6 @@
 
             <TextView
                 style="@style/home_content_text"
-                android:textSize="30sp"
                 android:textColor="#3C3C3C"
                 android:text="@string/home_announce_order" />
         </LinearLayout>
@@ -57,7 +56,6 @@
 
             <TextView
                 style="@style/home_content_text"
-                android:textSize="30sp"
                 android:textColor="#3C3C3C"
                 android:text="@string/home_find_team" />
         </LinearLayout>
@@ -75,7 +73,6 @@
 
             <TextView
                 style="@style/home_content_text"
-                android:textSize="30sp"
                 android:textColor="#3C3C3C"
                 android:text="@string/home_question_answer" />
         </LinearLayout>
@@ -93,7 +90,6 @@
 
             <TextView
                 style="@style/home_content_text"
-                android:textSize="30sp"
                 android:textColor="#3C3C3C"
                 android:text="@string/home_material_recommendation" />
         </LinearLayout>

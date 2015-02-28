@@ -6,6 +6,6 @@
 
     <!-- 自定义常量 -->
     <dimen name="bottom_bar_height">60dp</dimen>
-    <dimen name="slidingmenu_offset">250dp</dimen>
+    <dimen name="slidingmenu_offset">150dp</dimen>
     <dimen name="shadow_width">15dp</dimen>
 </resources>
