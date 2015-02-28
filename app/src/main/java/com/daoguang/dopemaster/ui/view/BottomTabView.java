@@ -10,7 +10,6 @@ import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
-import android.graphics.Typeface;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.os.Looper;
@@ -94,7 +93,8 @@ public class BottomTabView extends View {
         mTextPaint = new Paint();
         mTextPaint.setTextSize(mTextSize);
         mTextPaint.setColor(0Xff555555);
-        mTextPaint.setTypeface(Typeface.DEFAULT_BOLD);
+        mTextPaint.setAntiAlias(true);
+//        mTextPaint.setTypeface(Typeface.DEFAULT_BOLD);
         mTextPaint.getTextBounds(mText, 0, mText.length(), mTextBound);
     }
 
@@ -135,7 +135,6 @@ public class BottomTabView extends View {
      */
     private void drawTargetText(Canvas canvas, int alpha) {
         mTextPaint.setColor(mColor);
-        mTextPaint.setTypeface(Typeface.DEFAULT_BOLD);
         mTextPaint.setAlpha(alpha);
         int x = getMeasuredWidth() / 2 - mTextBound.width() / 2;
         int y = mIconRect.bottom + mTextBound.height();
@@ -149,9 +148,7 @@ public class BottomTabView extends View {
      * @param alpha
      */
     private void drawSourceText(Canvas canvas, int alpha) {
-//        mTextPaint.setColor(0xff333333);
-        mTextPaint.setColor(Color.parseColor("#000000"));
-        mTextPaint.setTypeface(Typeface.DEFAULT_BOLD);
+        mTextPaint.setColor(0xff333333);
         mTextPaint.setAlpha(255 - alpha);
         int x = getMeasuredWidth() / 2 - mTextBound.width() / 2;
         int y = mIconRect.bottom + mTextBound.height();
