@@ -5,6 +5,7 @@ import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
@@ -25,7 +26,8 @@ import com.daoguang.dopemaster.R;
  */
 public class BottomTabView extends View {
 
-    private int mColor = 0x5F97FA;
+//    private int mColor = 0x5F97FA;
+    private int mColor = Color.parseColor("#5F97FA");
     private Bitmap mIconBitmap;
     private String mText = "首页";
     private int mTextSize = (int) TypedValue.applyDimension(
@@ -133,6 +135,7 @@ public class BottomTabView extends View {
      */
     private void drawTargetText(Canvas canvas, int alpha) {
         mTextPaint.setColor(mColor);
+        mTextPaint.setTypeface(Typeface.DEFAULT_BOLD);
         mTextPaint.setAlpha(alpha);
         int x = getMeasuredWidth() / 2 - mTextBound.width() / 2;
         int y = mIconRect.bottom + mTextBound.height();
@@ -146,7 +149,9 @@ public class BottomTabView extends View {
      * @param alpha
      */
     private void drawSourceText(Canvas canvas, int alpha) {
-        mTextPaint.setColor(0xff333333);
+//        mTextPaint.setColor(0xff333333);
+        mTextPaint.setColor(Color.parseColor("#000000"));
+        mTextPaint.setTypeface(Typeface.DEFAULT_BOLD);
         mTextPaint.setAlpha(255 - alpha);
         int x = getMeasuredWidth() / 2 - mTextBound.width() / 2;
         int y = mIconRect.bottom + mTextBound.height();
