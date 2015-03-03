@@ -30,7 +30,7 @@ public class MainActivity extends BaseActivity implements ShowSlidingMenuListene
 
     private FragmentManager fragmentManager;
 
-    private List<BottomTabView> mTabIndicators = new ArrayList<BottomTabView>();
+    private List<BottomTabView> mTabIndicators = new ArrayList<>();
 
     @Override
     public void initWidget() {
@@ -73,7 +73,7 @@ public class MainActivity extends BaseActivity implements ShowSlidingMenuListene
     /**
      * 点击Tab按钮
      *
-     * @param v
+     *
      */
     private void clickTab(View v) {
         resetOtherTabs();
@@ -175,8 +175,8 @@ public class MainActivity extends BaseActivity implements ShowSlidingMenuListene
         sm.setBehindOffsetRes(R.dimen.slidingmenu_offset);
         // 设置渐入渐出效果的值
         sm.setFadeDegree(0.35f);
-        // 设置触摸屏幕的模式,这里设置为全屏
-        sm.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
+        // 设置触摸屏幕的模式,这里设置为禁止滑动
+        sm.setTouchModeAbove(SlidingMenu.TOUCHMODE_NONE);
         // 设置下方视图的在滚动时的缩放比例
         sm.setBehindScrollScale(0.0f);
     }
