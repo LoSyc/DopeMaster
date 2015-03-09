@@ -25,4 +25,10 @@
 
     <string name="home_left_choseCity">已选择城市</string>
     <string name="home_left_city">珠海</string>
+
+    <!--以下是订单页面所用到的String-->
+    <string name="order_tab_string">我的订单</string>
+    <string name="order_all">全部订单</string>
+    <string name="order_ongoing">进行中</string>
+    <string name="order_evaluate">待评价</string>
 </resources>

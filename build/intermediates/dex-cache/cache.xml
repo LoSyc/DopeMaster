@@ -37,6 +37,13 @@
         <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-860bc52cf531568049eac0f168c9400d44eeec42.jar" />
     </item>
     <item
+        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="803c4c913beac8f7980d680c725a40835d1d7c77">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-881a8e8e01bc33ae50e9237f3fee1b086455bfba.jar" />
+    </item>
+    <item
         jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
         jumboMode="false"
         revision="21.1.2"
