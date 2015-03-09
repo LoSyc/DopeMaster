@@ -31,4 +31,8 @@
     <string name="order_all">全部订单</string>
     <string name="order_ongoing">进行中</string>
     <string name="order_evaluate">待评价</string>
+
+
+    <!--我的-->
+    <string name="my_topText">个人中心</string>
 </resources>
