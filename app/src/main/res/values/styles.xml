@@ -1,4 +1,8 @@
 <resources>
+    <!-- 背景设为透明，用于启动页面-->
+    <style name="TranslateThemeFull" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/transparent</item>
+    </style>
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
