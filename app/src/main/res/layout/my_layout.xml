@@ -31,7 +31,6 @@
         android:layout_weight="1">
 
     <de.hdodenhof.circleimageview.CircleImageView
-            xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/head_image_view"
             android:layout_height="90dp"
             android:layout_width="90dp"
@@ -39,9 +38,7 @@
             android:layout_marginTop="17dp"
             android:layout_marginLeft="16dp"
             android:layout_centerVertical="true"
-            android:src="@mipmap/head_image"
-            app:border_width="2dp"
-            app:border_color="#FFEEEEEE"/>
+            android:src="@mipmap/head_image"/>
 
      <TextView
          android:id="@+id/head_tv_first"
