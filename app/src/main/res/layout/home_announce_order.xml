@@ -4,30 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <!--<RelativeLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="55dp"-->
-        <!--android:background="@color/topBar_blue">-->
-
-        <!--<ImageView-->
-            <!--android:id="@+id/back"-->
-            <!--android:layout_width="35dp"-->
-            <!--android:layout_height="35dp"-->
-            <!--android:scaleType="fitCenter"-->
-            <!--android:layout_centerVertical="true"-->
-            <!--android:src="@mipmap/back"-->
-            <!--android:layout_marginLeft="15dp"/>-->
-
-        <!--<TextView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_centerInParent="true"-->
-            <!--android:text="发布装修单"-->
-            <!--android:textSize="25dp"-->
-            <!--android:textColor="#FFFFFF"/>-->
-
-    <!--</RelativeLayout>-->
-
     <com.daoguang.dopemaster.ui.view.TopBar
         xmlns:custom="http://schemas.android.com/apk/res-auto"
         android:id="@+id/topBar"
