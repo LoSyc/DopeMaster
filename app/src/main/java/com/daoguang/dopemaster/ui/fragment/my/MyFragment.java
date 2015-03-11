@@ -18,23 +18,25 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.RelativeLayout;
-
+import android.widget.TableRow;
 import com.daoguang.dopemaster.R;
+import com.daoguang.dopemaster.ui.activity.my.AddrActivity;
+import de.hdodenhof.circleimageview.CircleImageView;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-import de.hdodenhof.circleimageview.CircleImageView;
-
 /**
  * Created by joker on 2015/2/1.
  */
 public class MyFragment extends Fragment implements View.OnClickListener{
+    private static final String TAG = "myfragment";
     private Uri imageuri;
     public static final int take_photo=1;
     private static final int crop_photo=2;
     public CircleImageView circleImageView;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View myView =inflater.inflate(R.layout.my_layout,container,false);
@@ -42,6 +44,19 @@ public class MyFragment extends Fragment implements View.OnClickListener{
        // RelativeLayout mycollect= (RelativeLayout) myView.findViewById(R.id.collect_re_layout);
         //RelativeLayout mydiscount= (RelativeLayout) myView.findViewById(R.id.dis_re_layout);
         myhead.setOnClickListener(this);
+
+        TableRow mMyAddr = (TableRow) myView.findViewById(R.id.my_addr);
+
+        mMyAddr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity(), AddrActivity.class);
+                i.putExtra(TAG, 0);
+                startActivityForResult(i, 0);
+
+            }
+        });
+
         return myView;
     }
 
