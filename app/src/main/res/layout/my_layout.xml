@@ -190,18 +190,18 @@
     </TableRow>
     <TextView
         android:layout_height="10dp"
-        android:layout_width="fill_parent"
-        />//分隔线
+        android:layout_width="fill_parent" />
+
     <TableRow
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
         android:background="#FFFFFF"
      >
         <RelativeLayout
-            android:id="@+id/addre_re_layout"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:layout_weight="1">
+        android:id="@+id/addre_re_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1">
         <ImageView
             android:id="@+id/addre_image_view"
             android:layout_width="40dp"
@@ -212,24 +212,25 @@
             android:layout_marginTop="17dp"
             android:layout_centerVertical="true"
             android:src="@mipmap/addr_image"/>
-         <TextView
-             android:layout_height="wrap_content"
-             android:layout_width="wrap_content"
-             android:layout_toRightOf="@id/addre_image_view"
-             android:layout_centerVertical="true"
-             android:layout_marginLeft="32dp"
-             android:text="我的地址"
-             android:textSize="15dp"
-             android:textColor="#525252"/>
-            <ImageView
-                android:layout_height="30dp"
-                android:layout_width="10dp"
-                android:scaleType="fitCenter"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="10dp"
-                android:src="@mipmap/move_image"/>
-            </RelativeLayout>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/addre_image_view"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="32dp"
+            android:text="我的地址"
+            android:textSize="15dp"
+            android:textColor="#525252"/>
+        <ImageView
+            android:layout_height="30dp"
+            android:layout_width="10dp"
+            android:scaleType="fitCenter"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/move_image"/>
+    </RelativeLayout>
+
         </TableRow>
 </TableLayout>
 </LinearLayout>

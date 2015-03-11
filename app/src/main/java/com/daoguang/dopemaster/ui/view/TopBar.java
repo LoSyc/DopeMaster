@@ -11,7 +11,7 @@ import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -22,7 +22,7 @@ import com.daoguang.dopemaster.R;
  */
 public class TopBar extends RelativeLayout{
 
-    private Button leftButton,rightButton;
+    private ImageView leftImg,rightImg;
     private TextView tvTitle;
 
     private Drawable leftIcon;
@@ -68,17 +68,19 @@ public class TopBar extends RelativeLayout{
 
         ta.recycle();
 
-        leftButton = new Button(context);
-        rightButton = new Button(context);
+        leftImg = new ImageView(context);
+        rightImg = new ImageView(context);
+        leftImg.setScaleType(ImageView.ScaleType.FIT_CENTER);
+        rightImg.setScaleType(ImageView.ScaleType.FIT_CENTER);
         tvTitle = new TextView(context);
 
         int sdk = android.os.Build.VERSION.SDK_INT;
         if(sdk < android.os.Build.VERSION_CODES.JELLY_BEAN) {
-            leftButton.setBackgroundDrawable(leftIcon);
-            rightButton.setBackgroundDrawable(rightIcon);
+            leftImg.setBackgroundDrawable(leftIcon);
+            rightImg.setBackgroundDrawable(rightIcon);
         } else {
-            leftButton.setBackground(leftIcon);
-            rightButton.setBackground(rightIcon);
+            leftImg.setBackground(leftIcon);
+            rightImg.setBackground(rightIcon);
         }
 
         tvTitle.setTextColor(titleTextColor);
@@ -88,33 +90,37 @@ public class TopBar extends RelativeLayout{
 
         setBackgroundColor(Color.parseColor("#5F97FA"));
 
-        leftParams = new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,LayoutParams.WRAP_CONTENT);
+        leftParams = new LayoutParams((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+                35, context.getResources().getDisplayMetrics()),(int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+                35, context.getResources().getDisplayMetrics()));
         leftParams.addRule(RelativeLayout.ALIGN_PARENT_LEFT,TRUE);
         leftParams.addRule(RelativeLayout.CENTER_VERTICAL,TRUE);
         leftParams.setMargins((int)leftMargin,(int)topMargin,0,0);
 
-        addView(leftButton, leftParams);
+        addView(leftImg, leftParams);
 
-        rightParams = new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,LayoutParams.WRAP_CONTENT);
+        rightParams = new LayoutParams((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+                35, context.getResources().getDisplayMetrics()),(int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+                35, context.getResources().getDisplayMetrics()));
         rightParams.addRule(RelativeLayout.ALIGN_PARENT_RIGHT,TRUE);
         rightParams.addRule(RelativeLayout.CENTER_VERTICAL,TRUE);
         rightParams.setMargins((int)leftMargin,(int)topMargin,0,0);
 
-        addView(rightButton,rightParams);
+        addView(rightImg,rightParams);
 
         titleParams = new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,LayoutParams.WRAP_CONTENT);
         titleParams.addRule(RelativeLayout.CENTER_IN_PARENT,TRUE);
 
         addView(tvTitle,titleParams);
         
-        leftButton.setOnClickListener(new OnClickListener() {
+        leftImg.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 topBarClickListener.leftClick();
             }
         });
 
-        rightButton.setOnClickListener(new OnClickListener() {
+        rightImg.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 topBarClickListener.rightClick();
@@ -124,17 +130,17 @@ public class TopBar extends RelativeLayout{
 
     public void setLeftIsVisable(Boolean flag) {
         if(flag){
-            leftButton.setVisibility(View.VISIBLE);
+            leftImg.setVisibility(View.VISIBLE);
         }else{
-            leftButton.setVisibility(View.GONE);
+            leftImg.setVisibility(View.GONE);
         }
     }
 
     public void setrightIsVisable(Boolean flag) {
         if(flag){
-            rightButton.setVisibility(View.VISIBLE);
+            rightImg.setVisibility(View.VISIBLE);
         }else{
-            rightButton.setVisibility(View.GONE);
+            rightImg.setVisibility(View.GONE);
         }
     }
 }
