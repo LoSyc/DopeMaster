@@ -7,6 +7,7 @@ import android.graphics.Bitmap.Config;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.PaintFlagsDrawFilter;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
@@ -113,6 +114,7 @@ public class BottomTabView extends View {
 
     @Override
     protected void onDraw(Canvas canvas) {
+        canvas.setDrawFilter(new PaintFlagsDrawFilter(0, Paint.ANTI_ALIAS_FLAG|Paint.FILTER_BITMAP_FLAG));
         canvas.drawBitmap(mIconBitmap, null, mIconRect, null);
 
         int alpha = (int) Math.ceil(255 * mAlpha);

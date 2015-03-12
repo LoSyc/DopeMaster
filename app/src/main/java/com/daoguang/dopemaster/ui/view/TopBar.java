@@ -104,7 +104,7 @@ public class TopBar extends RelativeLayout{
                 35, context.getResources().getDisplayMetrics()));
         rightParams.addRule(RelativeLayout.ALIGN_PARENT_RIGHT,TRUE);
         rightParams.addRule(RelativeLayout.CENTER_VERTICAL,TRUE);
-        rightParams.setMargins((int)leftMargin,(int)topMargin,0,0);
+        rightParams.setMargins(0,(int)topMargin,(int)leftMargin,0);
 
         addView(rightImg,rightParams);
 

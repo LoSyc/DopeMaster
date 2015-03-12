@@ -14,7 +14,7 @@
         custom:titleText="@string/home_title_bar"
         custom:titleTextSize="15sp"
         custom:titleTextColor="#FFFFFF"
-        custom:leftMargin="15dp"
+        custom:leftMargin="10dp"
         custom:topMargin="2dp"/>
 
     <!--广告布局-->
