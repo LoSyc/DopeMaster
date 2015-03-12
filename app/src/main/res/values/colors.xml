@@ -1,3 +1,12 @@
 <resources>
+    <color name="transparent">#00000000</color>
+    <drawable name="transparent">#00000000</drawable>
+
+    <color name="font_white">#ffffffff</color>
+    <color name="font_white_disable">#7fffffff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="line">#DDDDDD</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="topBar_blue">#5F97FA</color>
 
 </resources>
