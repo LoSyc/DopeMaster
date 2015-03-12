@@ -4,7 +4,7 @@
     android:layout_height="wrap_content">
 
 
-    <ListView
+    <com.daoguang.dopemaster.ui.fragment.order.Order_Listview
         android:id="@+id/order_listview_order"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -12,6 +12,6 @@
         android:divider="#F1F1F1"
         android:dividerHeight="11dp"
         android:layout_weight="1"
-        android:background="#F1F1F1"></ListView>
+        android:background="#F1F1F1"></com.daoguang.dopemaster.ui.fragment.order.Order_Listview>
 
 </LinearLayout>

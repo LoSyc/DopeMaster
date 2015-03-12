@@ -9,38 +9,59 @@
         android:layout_height="48dp"
         android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/order_tab_order"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
+        <LinearLayout
             android:layout_weight="1"
-            android:background="#ffffff"
-            android:gravity="center_horizontal|center_vertical"
-            android:text="@string/order_all"
-            android:textColor="#5f97fa"
-            android:textSize="15sp" />
+            android:id="@+id/order_order_button"
+            android:layout_width="3dp"
+            android:layout_height="48dp">
 
-        <TextView
-            android:id="@+id/order_tab_ongoing"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#ffffff"
-            android:gravity="center_horizontal|center_vertical"
-            android:text="@string/order_ongoing"
-            android:textColor="#000000"
-            android:textSize="15sp" />
+            <TextView
+                android:id="@+id/order_tab_order"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/order_all"
+                android:textColor="#5f97fa"
+                android:textSize="15sp" />
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/order_tab_evaluate"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
+        <LinearLayout
             android:layout_weight="1"
-            android:background="#ffffff"
-            android:gravity="center_horizontal|center_vertical"
-            android:text="@string/order_evaluate"
-            android:textColor="#000000"
-            android:textSize="15sp" />
+            android:id="@+id/order_ongoing_button"
+            android:layout_width="3dp"
+            android:layout_height="48dp">
+
+            <TextView
+                android:id="@+id/order_tab_ongoing"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/order_ongoing"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/order_evaluate_button"
+            android:layout_width="3dp"
+            android:layout_height="48dp">
+
+            <TextView
+                android:id="@+id/order_tab_evaluate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/order_evaluate"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
     </LinearLayout>
 
     <ImageView
