@@ -26,7 +26,11 @@ import com.daoguang.dopemaster.ui.activity.my.AddrActivity;
 import java.util.ArrayList;
 
 /**
- * Created by Administrator on 2015/3/11.
+ * 地址列表类
+ * 重写了适配器完成listview 功能
+ * ViewHolder 使用了utils 中的类 ,重写了顶栏,没有使用topbar 类
+ * onActivityResult() 根据长按item 选择对话框的按钮决定修改时候删除item
+ * Created by 麦均贤 on 2015/3/11.
  */
 public class MyAddrListFragment extends Fragment {
     private static final String TAG = "fragment.my.AddressListFragment";

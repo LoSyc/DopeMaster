@@ -1,7 +1,8 @@
 package com.daoguang.dopemaster.ui.activity.my;
 
 /**
- * Created by Administrator on 2015/3/12.
+ * 单例托管Activity 抽象类
+ * Created by 麦均贤 on 2015/3/12.
  */
 
 import android.os.Bundle;

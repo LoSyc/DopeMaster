@@ -12,7 +12,8 @@ import android.view.View;
 import com.daoguang.dopemaster.R;
 
 /**
- * Created by Administrator on 2015/3/14.
+ * 监听后退按钮提醒对话框
+ * Created by 麦均贤 on 2015/3/14.
  */
 public class BackDialogFragment extends DialogFragment {
 

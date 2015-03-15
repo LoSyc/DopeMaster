@@ -7,7 +7,7 @@ import java.util.UUID;
 
 /**
  * 托管地址类
- * 引用 demo http://www.eoeandroid.com/forum.php?mod=viewthread&tid=555387&extra=page%3D1&page=1
+ * 用于往Fragment中传递参数
  * Created by 麦均贤 on 2015/3/11.
  */
 

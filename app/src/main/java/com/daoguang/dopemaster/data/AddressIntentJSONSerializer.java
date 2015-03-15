@@ -17,7 +17,9 @@ import java.io.Writer;
 import java.util.ArrayList;
 
 /**
- * Created by Administrator on 2015/3/11.
+ * 用一个静态地址集合,保存地址对象集合
+ * 序列化地址对象,保存address 对象在本地
+ * Created by 麦均贤 on 2015/3/11.
  */
 public class AddressIntentJSONSerializer {
     private static final String TAG = "AddressIntentJSONSerializer";

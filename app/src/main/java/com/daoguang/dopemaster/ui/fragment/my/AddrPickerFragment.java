@@ -27,7 +27,9 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by Administrator on 2015/3/13.
+ * 地址三级联动对话框
+ * 地址三级联动引用 demo http://www.eoeandroid.com/forum.php?mod=viewthread&tid=555387&extra=page%3D1&page=1
+ * Created by 麦均贤 on 2015/3/13.
  */
 public class AddrPickerFragment extends DialogFragment implements OnWheelChangedListener {
     public static final String EXTRA_DATA = "fragment.my.addrpickerfragment.DATA";

@@ -7,7 +7,8 @@ import java.util.ArrayList;
 import java.util.UUID;
 
 /**
- * Created by Administrator on 2015/3/11.
+ * 静态地址类集合,保存地址(地址薄)
+ * Created by 麦均贤 on 2015/3/11.
  */
 public class AddressLab {
     private static final String TAG = "addressLab";

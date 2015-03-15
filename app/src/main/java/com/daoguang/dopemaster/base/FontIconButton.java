@@ -7,7 +7,11 @@ import android.widget.Button;
 import com.daoguang.dopemaster.R;
 
 /**
- * Created by Administrator on 2015/3/12.
+ * 字体图标类,引用于 http://zlong.org/articles/use-fonticon-in-android/
+ * 将 ttf文件(字体图标.ttf) 放入到Android的assets目录
+ * 在 xml 中引用此类代替 Button 类即可
+ * 字符串与图标的对应,请参照字体图标的下载页面
+ * Created by 麦均贤 on 2015/3/12.
  */
 public class FontIconButton extends Button {
 

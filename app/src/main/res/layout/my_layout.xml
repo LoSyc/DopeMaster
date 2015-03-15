@@ -22,13 +22,14 @@
 
         <TableRow
                 android:layout_height="wrap_content"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:background="#FFFFFF" >
 
             <RelativeLayout
                     android:id="@+id/head_re_layout"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
+                    android:background="@drawable/background_activated"
                     android:layout_weight="1">
 
                 <de.hdodenhof.circleimageview.CircleImageView
@@ -79,22 +80,20 @@
 
             <TextView
                     android:layout_height="10dp"
-                    android:layout_width="fill_parent" />
+                    android:layout_width="match_parent" />
 
         </LinearLayout>
 
         <TableRow
                 android:layout_height="wrap_content"
-                android:layout_width="fill_parent"
-                >
+                android:layout_width="match_parent" >
 
             <RelativeLayout
                     android:id="@+id/dis_re_layout"
                     android:layout_height="wrap_content"
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:background="#FFFFFF"
-                    >
+                    android:background="@drawable/background_activated" >
 
                 <ImageView
                         android:id="@+id/discount_image_view"
@@ -116,8 +115,7 @@
                         android:layout_marginLeft="32dp"
                         android:text="我的优惠卷"
                         android:textColor="#525252"
-                        android:textSize="15sp"
-                        />
+                        android:textSize="15sp" />
 
                 <TextView
                         android:id="@+id/dis_tv_second"
@@ -143,7 +141,7 @@
 
         <TextView
                 android:layout_height="1dp"
-                android:layout_width="fill_parent" />
+                android:layout_width="match_parent" />
 
         <TableRow>
 
@@ -152,7 +150,7 @@
                     android:layout_height="wrap_content"
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:background="#FFFFFF" >
+                    android:background="@drawable/background_activated" >
 
                 <ImageView
                         android:id="@+id/collect_image_view"
@@ -200,12 +198,12 @@
 
         <TextView
                 android:layout_height="10dp"
-                android:layout_width="fill_parent" />
+                android:layout_width="match_parent" />
 
         <TableRow
                 android:id="@+id/my_addr"
                 android:layout_height="wrap_content"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:background="#FFFFFF" >
 
             <RelativeLayout

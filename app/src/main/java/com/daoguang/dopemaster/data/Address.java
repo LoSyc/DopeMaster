@@ -6,7 +6,8 @@ import org.json.JSONObject;
 import java.util.UUID;
 
 /**
- * Created by Administrator on 2015/3/11.
+ * 地址信息类,使用JSON 保存地址在本地
+ * Created by 麦均贤 on 2015/3/11.
  */
 public class Address {
     private static final String JSON_ID = "id";
@@ -40,15 +41,6 @@ public class Address {
         mStreetAdd = json.getString(JSON_STREET);
         mZipCode = json.getString(JSON_ZIPCODE);
         mPhone = json.getString(JSON_PHONE);
-    }
-
-    public Address(String Contact, ProvinceAddr proAdd, CityAddr cityAdd, DistrictAddr distAdd) {
-        mId = UUID.randomUUID();
-        mContact = Contact;
-        mProAdd = proAdd.getName();
-        mCityAdd = cityAdd.getName();
-        mDistAdd = distAdd.getName();
-        mZipCode = distAdd.getZipcode();
     }
 
     public JSONObject toJSON() throws JSONException {
