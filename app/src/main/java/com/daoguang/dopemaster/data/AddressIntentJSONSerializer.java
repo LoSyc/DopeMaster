@@ -1,6 +1,7 @@
 package com.daoguang.dopemaster.data;
 
 import android.content.Context;
+import android.util.Log;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONTokener;
@@ -19,6 +20,7 @@ import java.util.ArrayList;
  * Created by Administrator on 2015/3/11.
  */
 public class AddressIntentJSONSerializer {
+    private static final String TAG = "AddressIntentJSONSerializer";
     private Context mContext;
     private String mFilename;
 
@@ -27,41 +29,38 @@ public class AddressIntentJSONSerializer {
         mFilename = f;
     }
 
-    public ArrayList<Address> loadAddress() throws IOException, JSONException {
-        ArrayList<Address> crimes = new ArrayList<Address>();
+    public ArrayList<Address> loadAddrColle() throws IOException, JSONException {
+        ArrayList<Address> addrColle = new ArrayList<Address>();
         BufferedReader reader = null;
         try {
-            // open and read the file into a StringBuilder
             InputStream in = mContext.openFileInput(mFilename);
             reader = new BufferedReader(new InputStreamReader(in));
             StringBuilder jsonString = new StringBuilder();
             String line = null;
             while ((line = reader.readLine()) != null) {
-                // line breaks are omitted and irrelevant
                 jsonString.append(line);
             }
-            // parse the JSON using JSONTokener
+
             JSONArray array = (JSONArray) new JSONTokener(jsonString.toString()).nextValue();
-            // build the array of crimes from JSONObjects
             for (int i = 0; i < array.length(); i++) {
-                crimes.add(new Address(array.getJSONObject(i)));
+                Log.i(TAG, "array.length() = " + String.valueOf(array.length()));
+                addrColle.add(new Address(array.getJSONObject(i)));
             }
         } catch (FileNotFoundException e) {
-            // we will ignore this one, since it happens when we start fresh
+            Log.i(TAG, "loadAddrColle() error!");
         } finally {
             if (reader != null)
                 reader.close();
         }
-        return crimes;
+        return addrColle;
     }
 
-    public void saveAddresss(ArrayList<Address> crimes) throws JSONException, IOException {
+    public void saveAddrColle(ArrayList<Address> addrColle) throws JSONException, IOException {
         // build an array in JSON
         JSONArray array = new JSONArray();
-        for (Address add : crimes)
-            array.put(add.toJSON());
-
-        // write the file to disk
+        for (Address addr : addrColle) {
+            array.put(addr.toJSON());
+        }
         Writer writer = null;
         try {
             OutputStream out = mContext.openFileOutput(mFilename, Context.MODE_PRIVATE);

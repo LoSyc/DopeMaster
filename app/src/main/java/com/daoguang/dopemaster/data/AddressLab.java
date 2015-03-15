@@ -11,9 +11,9 @@ import java.util.UUID;
  */
 public class AddressLab {
     private static final String TAG = "addressLab";
-    private static final String FILENAME = "address.json";
+    private static final String FILENAME = "dopemaster.address.data.json";
 
-    private ArrayList<Address> mAddress;
+    private ArrayList<Address> mAddrColle;
     private AddressIntentJSONSerializer mSerializer;
 
     private static AddressLab sAddressLab;
@@ -24,9 +24,9 @@ public class AddressLab {
         mSerializer = new AddressIntentJSONSerializer(mAppContext, FILENAME);
 
         try {
-            mAddress = mSerializer.loadAddress();
+            mAddrColle = mSerializer.loadAddrColle();
         } catch (Exception e) {
-            mAddress = new ArrayList<Address>();
+            mAddrColle = new ArrayList<Address>();
             Log.e(TAG, "Error loading address: ", e);
         }
     }
@@ -39,30 +39,31 @@ public class AddressLab {
     }
 
     public Address getAddress(UUID id) {
-        for (Address add : mAddress) {
-            if (add.getId().equals(id))
-                return add;
+        for (Address addr : mAddrColle) {
+            if (addr.getId().equals(id))
+                return addr;
         }
         return null;
     }
 
-    public void addAddress(Address c) {
-        mAddress.add(c);
-        saveAddresss();
+    public void addAddress(Address addr) {
+        mAddrColle.add(addr);
+        saveAddrColle();
     }
 
-    public ArrayList<Address> getAddresss() {
-        return mAddress;
+    public ArrayList<Address> getAddrColle() {
+        return mAddrColle;
     }
 
-    public void deleteAddress(Address c) {
-        mAddress.remove(c);
-        saveAddresss();
+    public void deleteAddress(Address addr) {
+        mAddrColle.remove(addr);
+        Log.i(TAG, "addr was delete!");
+        saveAddrColle();
     }
 
-    public boolean saveAddresss() {
+    public boolean saveAddrColle() {
         try {
-            mSerializer.saveAddresss(mAddress);
+            mSerializer.saveAddrColle(mAddrColle);
             Log.d(TAG, "address saved to file");
             return true;
         } catch (Exception e) {

@@ -116,14 +116,18 @@ public class TopBar extends RelativeLayout{
         leftImg.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                topBarClickListener.leftClick();
+                if (leftIcon != null) {
+                    topBarClickListener.leftClick();
+                }
             }
         });
 
         rightImg.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                topBarClickListener.rightClick();
+                if (rightIcon != null) {
+                    topBarClickListener.rightClick();
+                }
             }
         });
     }

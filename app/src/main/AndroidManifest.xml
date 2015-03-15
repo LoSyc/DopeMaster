@@ -28,10 +28,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.activity.main.MainActivity" />
-        <activity
-                android:name=".ui.activity.my.AddrActivity"
-                android:theme="@style/TranslateThemeFull"
-                />
+        <activity android:name=".ui.activity.my.AddrActivity" />
+        <activity android:name=".ui.activity.my.AddrListActivity" />
     </application>
 
 </manifest>
