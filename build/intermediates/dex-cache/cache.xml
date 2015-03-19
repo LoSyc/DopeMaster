@@ -2,39 +2,109 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.2.4\3b7f38df6de5dd8b500e602ae8c2dd5ee446f883\httpcore-4.2.4.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="3b7f38df6de5dd8b500e602ae8c2dd5ee446f883">
-        <dex dex="D:\DELL\Java\IdeaProjects\Android Studio\DopeMaster\app\build\intermediates\pre-dexed\debug\httpcore-4.2.4-3729fc3d30a9ebf73af4abd583ab42f103df8936.jar" />
-    </item>
-    <item
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\fastjson\1.1.37-leancloud\f0eb5dd7cf5d5e186a49179c2e956e5a34c71956\fastjson-1.1.37-leancloud.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="f0eb5dd7cf5d5e186a49179c2e956e5a34c71956">
-        <dex dex="D:\DELL\Java\IdeaProjects\Android Studio\DopeMaster\app\build\intermediates\pre-dexed\debug\fastjson-1.1.37-leancloud-265b52f963a08066e94b5610818e7512f0bbabae.jar" />
-    </item>
-    <item
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\avoscloud-sdk\v2.6.11.1\b8661b10f7047d1ac657e0d23131a2e7891481a3\avoscloud-sdk-v2.6.11.1.jar"
+        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\avoscloud-sdk\v2.6.11.1\b8661b10f7047d1ac657e0d23131a2e7891481a3\avoscloud-sdk-v2.6.11.1.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="b8661b10f7047d1ac657e0d23131a2e7891481a3">
-        <dex dex="D:\DELL\Java\IdeaProjects\Android Studio\DopeMaster\app\build\intermediates\pre-dexed\debug\avoscloud-sdk-v2.6.11.1-ce18b573b47042953bcae7bda761f799b5984a7f.jar" />
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\avoscloud-sdk-v2.6.11.1-d20cc2a836012f26b0d16ee07f0e683e5f977799.jar" />
     </item>
     <item
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.2.4\dba4d4d224e2ca872af5be8d2992777583145478\httpmime-4.2.4.jar"
+        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\DopeMaster.libraries\slidingMenu\unspecified\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="dba4d4d224e2ca872af5be8d2992777583145478">
-        <dex dex="D:\DELL\Java\IdeaProjects\Android Studio\DopeMaster\app\build\intermediates\pre-dexed\debug\httpmime-4.2.4-369a7ea1a030bdebc45dc6ec475aa8fd8122df83.jar" />
+        sha1="bbc99dbfa0a41eda9af3accb7822511939e48d43">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-2065b216ba206716d185d13a6991f00b863401c5.jar" />
     </item>
     <item
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.6\a845a88238be0b5be9d238652c1bc0605ef91f52\android-async-http-1.4.6.jar"
+        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\DopeMaster.libraries\InfiniteIndicator\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5614404edef9a51b7623c980f69953b430f0770f">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-662cdff0c03e818df0db44791a4cbb266eb552a9.jar" />
+    </item>
+    <item
+        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-598892d24f35cd3874ae485bb08e59026c5efaaa.jar" />
+    </item>
+    <item
+        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.2.4\3b7f38df6de5dd8b500e602ae8c2dd5ee446f883\httpcore-4.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3b7f38df6de5dd8b500e602ae8c2dd5ee446f883">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\httpcore-4.2.4-824a964d40ddfc567899e0d0acdf8584ee16a494.jar" />
+    </item>
+    <item
+        jar="G:\ADT\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-6946be4c504f76119cfac30efb46bf52f9325737.jar" />
+    </item>
+    <item
+        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\library-2.4.0-5f4418a856055eedfe13ab22d294f3bf5cf04996.jar" />
+    </item>
+    <item
+        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.6\a845a88238be0b5be9d238652c1bc0605ef91f52\android-async-http-1.4.6.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
-        <dex dex="D:\DELL\Java\IdeaProjects\Android Studio\DopeMaster\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-3abe1b75369d0e7e0c21265f96c41dd7fac30c93.jar" />
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-60348c6acf0e1eda24b94f3c8a6c73de8b6f1fbc.jar" />
+    </item>
+    <item
+        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\com.etsy.android.grid\library\1.0.5\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8218789edb56bdcfff7da48e892b37460fc707e2">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-babe0c5fd9dc89e6e552bcd8507c8479b9659c92.jar" />
+    </item>
+    <item
+        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-46e3c417eb9fc9e7c6d9f670bf2a6b79ca74e4b4.jar" />
+    </item>
+    <item
+        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.2.4\dba4d4d224e2ca872af5be8d2992777583145478\httpmime-4.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dba4d4d224e2ca872af5be8d2992777583145478">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\httpmime-4.2.4-092976c458347f89f38c285f6e66a66281f13383.jar" />
+    </item>
+    <item
+        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-860bc52cf531568049eac0f168c9400d44eeec42.jar" />
+    </item>
+    <item
+        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="803c4c913beac8f7980d680c725a40835d1d7c77">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-881a8e8e01bc33ae50e9237f3fee1b086455bfba.jar" />
+    </item>
+    <item
+        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\picasso-2.4.0-d309035bb4fb6583fec38e2342ec2dd4a4890f0b.jar" />
+    </item>
+    <item
+        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\fastjson\1.1.37-leancloud\f0eb5dd7cf5d5e186a49179c2e956e5a34c71956\fastjson-1.1.37-leancloud.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f0eb5dd7cf5d5e186a49179c2e956e5a34c71956">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\fastjson-1.1.37-leancloud-5bfae01b6ad230839436d6648685a46023e7eff9.jar" />
     </item>
 
 </items>

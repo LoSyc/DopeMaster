@@ -6,7 +6,6 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
 import com.daoguang.dopemaster.R;
@@ -22,18 +21,22 @@ import java.util.Map;
  * 作者:宋益聪
  * 时间：3月2号
  */
-public class Order_Order_Fragment extends Fragment {
+public class Order_Order_Fragment extends Fragment implements Order_Listview.IReflashListener{
 
     SimpleAdapter msimp;
+
+    View view;
+
     //模拟测试
-    private ListView mlv;
+    private Order_Listview mlv;
     private List<Map<String, Object>> list;
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.order_tab_order, container, false);
+        view = inflater.inflate(R.layout.order_tab_order, container, false);
 //模拟测试
-        mlv = (ListView) view.findViewById(R.id.order_listview_order);
+        mlv = (Order_Listview) view.findViewById(R.id.order_listview_order);
+        mlv.setInterface(this);
         getData();
         msimp = new SimpleAdapter(getActivity().getApplicationContext(), list,
                 R.layout.order_listview_item,
@@ -45,6 +48,9 @@ public class Order_Order_Fragment extends Fragment {
         mlv.setAdapter(msimp);
         return view;
     }
+
+
+
     // 加载SimpleAdapter数据集
     private List<Map<String, Object>> getData() {
         list = new ArrayList<Map<String, Object>>();
@@ -88,4 +94,20 @@ public class Order_Order_Fragment extends Fragment {
         return list;
     }
 
+
+    /**
+     * 数据刷新在此做
+     */
+    @Override
+    public void onReflash() {
+       //下面是模拟数据
+        android.os.Handler handler=new android.os.Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                mlv.reflashComplete();
+            }
+        },2000);
+
+    }
 }

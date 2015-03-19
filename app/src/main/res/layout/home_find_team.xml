@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#F2F2F2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.daoguang.dopemaster.ui.view.TopBar
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        custom:leftIcon="@mipmap/back"
+        custom:titleText="@string/home_find_team"
+        custom:titleTextSize="15sp"
+        custom:titleTextColor="#FFFFFF"
+        custom:leftMargin="15dp"
+        custom:topMargin="2dp"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:descendantFocusability="blocksDescendants"
+                android:id="@+id/home_find_team_price"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/home_price_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/home_find_team_price"
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="9dp">
+
+                    <ImageButton
+                        android:id="@+id/home_price_increase"
+                        android:layout_width="5dp"
+                        android:layout_height="5dp"
+                        android:background="#aaeedd"/>
+
+                    <ImageButton
+                        android:id="@+id/home_price_descrease"
+                        android:layout_width="5dp"
+                        android:layout_height="5dp"
+                        android:background="#aabbcc"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:descendantFocusability="blocksDescendants"
+                android:id="@+id/home_find_team_popularity"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/home_popularity_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/home_find_team_popularity"
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="9dp">
+
+                    <ImageButton
+                        android:id="@+id/home_popularity_increase"
+                        android:layout_width="5dp"
+                        android:layout_height="5dp"
+                        android:background="#aaeedd"/>
+
+                    <ImageButton
+                        android:id="@+id/home_popularity_descrease"
+                        android:layout_width="5dp"
+                        android:layout_height="5dp"
+                        android:background="#aabbcc"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/home_tabline"
+            android:layout_width="1dp"
+            android:layout_height="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#FA8888"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/home_view_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>
