@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <com.daoguang.dopemaster.base.FontIconButton
+            android:id="@+id/modify_addr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:textSize="20sp"
+            android:padding="4dp"
+            android:text="@string/modify" />
+
+    <TextView
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="@color/line"/>
+    
+    <com.daoguang.dopemaster.base.FontIconButton
+            android:id="@+id/delete_addr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:textSize="20sp"
+            android:padding="4dp"
+            android:text="@string/delete_addr" />
+
+</LinearLayout>

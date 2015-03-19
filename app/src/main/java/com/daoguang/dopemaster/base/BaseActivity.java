@@ -6,7 +6,8 @@ import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.view.Window;
 
-
+import com.daoguang.dopemaster.R;
+import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
 
 /**
@@ -61,6 +62,12 @@ public abstract class BaseActivity extends SlidingFragmentActivity implements
             requestWindowFeature(Window.FEATURE_NO_TITLE); // 取消标题
         }
         AppManager.getAppManager().addActivity(this);
+        // 设置左侧滑动菜单
+        setBehindContentView(R.layout.home_left_frme);
+        // 实例化滑动菜单对象
+        SlidingMenu sm = getSlidingMenu();
+        // 设置触摸屏幕的模式,这里设置为禁止滑动
+        sm.setTouchModeAbove(SlidingMenu.TOUCHMODE_NONE);
         initWidget();
     }
 

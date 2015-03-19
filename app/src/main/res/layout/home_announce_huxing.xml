@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.daoguang.dopemaster.ui.view.TopBar
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        custom:leftText="返回"
+        custom:rightText="保存"
+        custom:lfTextSize="10sp"
+        custom:titleTextColor="#FFFFFF"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="#FFFFFF">
+w
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择你家的户型"
+            android:textColor="#5F97FA"
+            android:textSize="15sp"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/huxingGv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:numColumns="3"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="10dp">
+    </GridView>
+
+</LinearLayout>

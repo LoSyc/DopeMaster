@@ -4,29 +4,31 @@
     android:layout_height="match_parent"
     android:gravity="bottom"
     android:orientation="vertical"
-    android:padding="15dp">
+    android:paddingBottom="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
 
 
     <Button
         android:id="@+id/user_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="10dip"
-        android:paddingTop="10dip"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
         android:background="@drawable/round_topbutton_shape"
         android:text="昵称设置"
         android:textColor="#5F97FA"
         android:textSize="20sp" />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="0.5dip"
+        android:layout_height="0.5dp"
         android:background="#B6B6B6" />
     <Button
         android:id="@+id/user_gallery"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="10dip"
-        android:paddingTop="10dip"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
         android:background="@drawable/round_shape_bg"
         android:text="图库"
         android:textColor="#5F97FA"
@@ -34,7 +36,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="0.5dip"
+        android:layout_height="0.5dp"
 
         android:background="#B6B6B6" />
 
@@ -42,8 +44,8 @@
         android:id="@+id/user_camera"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="10dip"
-        android:paddingTop="10dip"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
         android:background="@drawable/round_bottombutton_shape"
         android:text="拍照"
         android:textColor="#5F97FA"
@@ -54,9 +56,9 @@
         android:id="@+id/user_cancel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dip"
-        android:paddingBottom="10dip"
-        android:paddingTop="10dip"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
         android:background="@drawable/round_cancelshape_bg"
         android:text="取消"
         android:textColor="#5F97FA"

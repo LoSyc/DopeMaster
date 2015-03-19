@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_activated" >
+
+    <com.daoguang.dopemaster.base.FontIconButton
+            android:id="@+id/modify_addr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:enabled="false"
+            android:focusable="false"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:padding="4dp"
+            android:text="@string/pencil" />
+
+    <TextView
+            android:id="@+id/addr_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/modify_addr"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="4dp"
+            android:textSize="14sp"
+            android:hint="Addr title" />
+
+    <TextView
+            android:id="@+id/client_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/modify_addr"
+            android:layout_below="@id/addr_name"
+            android:textStyle="bold"
+            android:paddingLeft="4dp"
+            android:textColor="@color/blue"
+            android:textSize="14sp"
+            android:paddingRight="4dp"
+            android:paddingTop="4dp"
+            android:text="Name and phone" />
+
+    <TextView
+            android:id="@+id/detail_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/client_name"
+            android:layout_toLeftOf="@id/modify_addr"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="4dp"
+            android:textSize="12sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:hint="Complete address" />
+
+</RelativeLayout>

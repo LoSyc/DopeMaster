@@ -58,11 +58,11 @@
         <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-60348c6acf0e1eda24b94f3c8a6c73de8b6f1fbc.jar" />
     </item>
     <item
-        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.2.4\dba4d4d224e2ca872af5be8d2992777583145478\httpmime-4.2.4.jar"
+        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\com.etsy.android.grid\library\1.0.5\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="dba4d4d224e2ca872af5be8d2992777583145478">
-        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\httpmime-4.2.4-092976c458347f89f38c285f6e66a66281f13383.jar" />
+        sha1="8218789edb56bdcfff7da48e892b37460fc707e2">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-babe0c5fd9dc89e6e552bcd8507c8479b9659c92.jar" />
     </item>
     <item
         jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
@@ -70,6 +70,13 @@
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
         <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-46e3c417eb9fc9e7c6d9f670bf2a6b79ca74e4b4.jar" />
+    </item>
+    <item
+        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.2.4\dba4d4d224e2ca872af5be8d2992777583145478\httpmime-4.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dba4d4d224e2ca872af5be8d2992777583145478">
+        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\httpmime-4.2.4-092976c458347f89f38c285f6e66a66281f13383.jar" />
     </item>
     <item
         jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"

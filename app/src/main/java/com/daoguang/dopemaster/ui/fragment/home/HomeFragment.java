@@ -1,6 +1,7 @@
 package com.daoguang.dopemaster.ui.fragment.home;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -13,6 +14,11 @@ import com.daoguang.dopemaster.R;
 import com.daoguang.dopemaster.support.bean.PageInfo;
 import com.daoguang.dopemaster.support.callBack.ShowSlidingMenuListener;
 import com.daoguang.dopemaster.support.utils.ViewFinder;
+import com.daoguang.dopemaster.ui.activity.RegisterActivity;
+import com.daoguang.dopemaster.ui.activity.home.AnnounceOrderActivity;
+import com.daoguang.dopemaster.ui.activity.home.FindTeamActivity;
+import com.daoguang.dopemaster.ui.activity.home.MaterialRecommendationActivity;
+import com.daoguang.dopemaster.ui.activity.home.SettingActivity;
 import com.daoguang.dopemaster.ui.view.TopBar;
 
 import java.util.ArrayList;
@@ -45,7 +51,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener,BaseS
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View homeLayout =inflater.inflate(R.layout.home_layout,container,false);
+        View homeLayout = inflater.inflate(R.layout.home_layout,container,false);
         ViewFinder finder = new ViewFinder(homeLayout);
 
 
@@ -58,7 +64,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener,BaseS
 
             @Override
             public void rightClick() {
-                Toast.makeText(getActivity(),"right",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getActivity(), SettingActivity.class);
+                startActivity(intent);
+                getActivity().overridePendingTransition(0, R.anim.alpha_out);
             }
         });
 
@@ -89,19 +97,23 @@ public class HomeFragment extends Fragment implements View.OnClickListener,BaseS
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.announce_order:
-                Toast.makeText(getActivity(), "发布装修单", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getActivity(), AnnounceOrderActivity.class);
+                startActivity(intent);
                 break;
 
             case R.id.find_team:
-                Toast.makeText(getActivity(), "寻找装修团队", Toast.LENGTH_SHORT).show();
+                Intent intentFind = new Intent(getActivity(), FindTeamActivity.class);
+                startActivity(intentFind);
                 break;
 
             case R.id.question_answer:
-                Toast.makeText(getActivity(), "装修问答专栏", Toast.LENGTH_SHORT).show();
+                intent = new Intent(getActivity(), RegisterActivity.class);
+                startActivity(intent);
                 break;
 
             case R.id.material_recommendation:
-                Toast.makeText(getActivity(), "装修材料推荐", Toast.LENGTH_SHORT).show();
+                Intent intentMaterial = new Intent(getActivity(), MaterialRecommendationActivity.class);
+                startActivity(intentMaterial);
                 break;
 
         }
