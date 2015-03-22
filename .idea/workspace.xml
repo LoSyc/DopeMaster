@@ -97,7 +97,7 @@
       <file leaf-file-name="order_listview_item.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/order_listview_item.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.049418606" vertical-offset="1855" max-vertical-offset="3480">
+            <state vertical-scroll-proportion="-0.7877907" vertical-offset="2143" max-vertical-offset="3480">
               <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
               <folding />
             </state>
@@ -3093,7 +3093,11 @@
       <created>1427033013069</created>
       <updated>1427033013069</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="增加点击订单详情">
+      <created>1427033040009</created>
+      <updated>1427033040009</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -3117,7 +3121,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3615,7 +3619,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/order_listview_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.049418606" vertical-offset="1855" max-vertical-offset="3480">
+        <state vertical-scroll-proportion="-0.7877907" vertical-offset="2143" max-vertical-offset="3480">
           <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
           <folding />
         </state>

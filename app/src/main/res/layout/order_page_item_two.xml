@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#d1d1d1" />
+
+    <TextView
+        android:id="@+id/order_page_team_name"
+        android:text="专修团队：XXX"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d1d1d1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/order_page_team_pic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/order_test" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/order_page_package_name"
+                android:text="天蓝蓝"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/order_page_package_price"
+                android:text="￥68.00"
+                android:textSize="18sp"
+                android:layout_marginTop="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d1d1d1" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/order_page_package_coupons"
+        android:text="优惠劵："
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d1d1d1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/order_page_package_surcharge_title"
+        android:text="附加费："
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/order_page_package_surcharge"
+            android:text="￥0.00"
+            android:textSize="18sp"
+            android:textColor="#FF00FF"
+            android:layout_marginLeft="190dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d1d1d1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/order_page_package_all_title"
+            android:text="合计："
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/order_page_package_all"
+            android:text="￥68.00"
+            android:textSize="18sp"
+            android:textColor="#FF00FF"
+            android:layout_marginLeft="210dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#d1d1d1" />
+
+
+</LinearLayout>
