@@ -33,251 +33,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0c566ad-8a23-40b3-88d8-5c085a5b05ee" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\桌面\taoguang\taoguang3_20\.idea\inspectionProfiles\Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\桌面\taoguang\taoguang3_20\.idea\inspectionProfiles\profiles_settings.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/.classpath" afterPath="$PROJECT_DIR$/libraries/slidingMenu/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.gitignore" afterPath="$PROJECT_DIR$/app/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/.gitignore" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/.gitignore" afterPath="$PROJECT_DIR$/libraries/slidingMenu/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/.project" afterPath="$PROJECT_DIR$/libraries/slidingMenu/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/adapters/AbstractWheelAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/adapters/AbstractWheelAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/adapters/AbstractWheelTextAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/adapters/AbstractWheelTextAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/adapters/AdapterWheel.java" afterPath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/adapters/AdapterWheel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/my/AddrActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/my/AddrActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/my/AddrListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/my/AddrListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/my/AddrPickerFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/my/AddrPickerFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/data/Address.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/data/Address.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/data/AddressIntentJSONSerializer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/data/AddressIntentJSONSerializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/data/AddressLab.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/data/AddressLab.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/AndroidManifest.xml" afterPath="$PROJECT_DIR$/libraries/slidingMenu/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/indicator/AnimIndicator.java" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/indicator/AnimIndicator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/callBack/AnnounceFrCall.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/callBack/AnnounceFrCall.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/home/AnnounceOrdFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/home/AnnounceOrdFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/home/AnnounceOrderActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/home/AnnounceOrderActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/base/AppLog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/base/AppLog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/base/AppManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/base/AppManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/daoguang/dopemaster/ApplicationTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/daoguang/dopemaster/ApplicationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/adapters/ArrayWheelAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/adapters/ArrayWheelAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/my/BackDialogFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/my/BackDialogFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/base/BaseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/base/BaseActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/slideview/BaseSliderView.java" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/slideview/BaseSliderView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/view/BottomTabView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/view/BottomTabView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder.java" afterPath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/indicator/CircleIndicator.java" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/indicator/CircleIndicator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/data/CityAddr.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/data/CityAddr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/adapter/CommonAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/adapter/CommonAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/base/Config.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/base/Config.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/CustomDurationScroller.java" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/CustomDurationScroller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java" afterPath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/CustomViewBehind.java" afterPath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/CustomViewBehind.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/slideview/DefaultSliderView.java" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/slideview/DefaultSliderView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/data/DistrictAddr.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/data/DistrictAddr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DopeMaster.iml" afterPath="$PROJECT_DIR$/DopeMaster.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/home/FindTeamActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/home/FindTeamActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/base/FontIconButton.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/base/FontIconButton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/utils/GetContext.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/utils/GetContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/home/HomeFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/home/HomeFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/home/HomePopularityFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/home/HomePopularityFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/home/HomePriceFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/home/HomePriceFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/adapter/HomeStaggeredGridAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/adapter/HomeStaggeredGridAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/home/HuXingChooseFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/home/HuXingChooseFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/InfiniteIndicator.iml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/InfiniteIndicator.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/InfiniteIndicatorLayout.java" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/InfiniteIndicatorLayout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/ItemsRange.java" afterPath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/ItemsRange.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/LICENSE.txt" afterPath="$PROJECT_DIR$/libraries/slidingMenu/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/LICENSE" afterPath="$PROJECT_DIR$/libraries/slidingMenu/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/home/LeftHomeFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/home/LeftHomeFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/main/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/main/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/bean/MaterialData.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/bean/MaterialData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/bean/MaterialObject.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/bean/MaterialObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/home/MaterialRecommendationActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/home/MaterialRecommendationActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/MenuInterface.java" afterPath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/MenuInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/my/MyAddrFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/my/MyAddrFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/my/MyAddrListFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/my/MyAddrListFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/base/MyApp.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/base/MyApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/my/MyFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/my/MyFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/adapters/NumericWheelAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/adapters/NumericWheelAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/OnWheelChangedListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/OnWheelChangedListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/OnWheelClickedListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/OnWheelClickedListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/OnWheelScrollListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/OnWheelScrollListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/my/OperateDialogFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/my/OperateDialogFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/order/OrderFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/order/OrderFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/order/Order_Evaluate_Fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/order/Order_Evaluate_Fragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/order/Order_Listview.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/order/Order_Listview.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/order/Order_Ongoing_Fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/order/Order_Ongoing_Fragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/order/Order_Order_Fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/order/Order_Order_Fragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/indicator/PageIndicator.java" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/indicator/PageIndicator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/bean/PageInfo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/bean/PageInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/bean/PriceSort.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/bean/PriceSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/data/ProvinceAddr.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/data/ProvinceAddr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/jakewharton/salvage/RecycleBin.java" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/jakewharton/salvage/RecycleBin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/jakewharton/salvage/RecyclingPagerAdapter.java" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/jakewharton/salvage/RecyclingPagerAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/indicator/RecyleAdapter.java" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/java/cn/lightsky/infiniteindicator/indicator/RecyleAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/RegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/RegisterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/home/SettingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/home/SettingActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/show/ShowFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/show/ShowFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/callBack/ShowSlidingMenuListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/callBack/ShowSlidingMenuListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/show/Show_Picture.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/show/Show_Picture.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/show/Show_PictureAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/show/Show_PictureAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/show/Show_ViewHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/fragment/show/Show_ViewHolder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/my/SingleFragmentActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/my/SingleFragmentActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivity.java" afterPath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityBase.java" afterPath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityHelper.java" afterPath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingFragmentActivity.java" afterPath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingFragmentActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingListActivity.java" afterPath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.java" afterPath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingPreferenceActivity.java" afterPath="$PROJECT_DIR$/libraries/slidingMenu/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingPreferenceActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/StartActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/StartActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/home/Test.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/home/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/http/Test10.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/http/Test10.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/order/Test2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/order/Test2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/show/Test3.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/activity/show/Test3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/sys/receiver/Test4.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/sys/receiver/Test4.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/sys/service/Test5.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/sys/service/Test5.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/cache/Test8.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/cache/Test8.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/db/Test9.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/db/Test9.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/view/TopBar.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/ui/view/TopBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/utils/ViewFinder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/utils/ViewFinder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/utils/ViewHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/utils/ViewHolder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/WheelAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/WheelAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/WheelRecycle.java" afterPath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/WheelRecycle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/WheelScroller.java" afterPath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/WheelScroller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/WheelView.java" afterPath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/WheelView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/adapters/WheelViewAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/demo/wheel/widget/adapters/WheelViewAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/utils/XmlParserHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/support/utils/XmlParserHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/sys/service/XmlParserHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/daoguang/dopemaster/sys/service/XmlParserHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fragmentmyaddr.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fragmentmyaddr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_myaddrfrgment.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_myaddrfrgment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/anim/alpha_out.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/alpha_out.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/values/attrs.xml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/values/attrs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/res/values/attrs.xml" afterPath="$PROJECT_DIR$/libraries/slidingMenu/res/values/attrs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/atts.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/atts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/background_activated.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_activated.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/drawable/balck_radius_square.xml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/drawable/balck_radius_square.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/bottom_tab.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bottom_tab.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/build.gradle" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/build.gradle" afterPath="$PROJECT_DIR$/libraries/slidingMenu/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_background_pressed.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_background_pressed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/circle_corner_button.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle_corner_button.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/circle_corner_button_choosed.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle_corner_button_choosed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/anim/entrance.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/entrance.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/entrance_image.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/entrance_image.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/font_login_button.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/font_login_button.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_addr.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_addr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_addr_list.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_addr_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_createaddr.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_createaddr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dialog_addroperate.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dialog_addroperate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dialog_backaddrlist.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dialog_backaddrlist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dialog_procitydist.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dialog_procitydist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_advertising_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_advertising_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_announce_design.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_announce_design.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_announce_design_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_announce_design_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_announce_huxing.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_announce_huxing.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_announce_huxing_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_announce_huxing_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_announce_order.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_announce_order.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_announce_order_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_announce_order_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_find_team.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_find_team.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_left_frme.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_left_frme.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_left_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_left_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_material_list_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_material_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_material_recommendation.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_material_recommendation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_setting.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_setting.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_team_listview_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_team_listview_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_team_popularity_listview.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_team_popularity_listview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_team_price_listview.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_team_price_listview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/res/values/ids.xml" afterPath="$PROJECT_DIR$/libraries/slidingMenu/res/values/ids.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/image_button_background.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/image_button_background.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/infiniteautoscroolview.iml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/infiniteautoscroolview.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/integers.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/integers.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/layout/item_page.xml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/layout/item_page.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/layout/layout_anim_circle_indicator.xml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/layout/layout_anim_circle_indicator.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/layout/layout_anim_line_indicator.xml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/layout/layout_anim_line_indicator.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/layout/layout_default_indicator.xml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/layout/layout_default_indicator.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/libraries.iml" afterPath="$PROJECT_DIR$/libraries/libraries.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/library.iml" afterPath="$PROJECT_DIR$/libraries/slidingMenu/library.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_addr.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_addr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/login_button.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/login_button.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/my_buttom_popup_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/my_buttom_popup_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/my_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/my_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/order_custom_progress_bar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/order_custom_progress_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/order_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/order_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/order_listview_header.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/order_listview_header.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/order_listview_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/order_listview_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/order_raduis.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/order_raduis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/order_tab.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/order_tab.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/order_tab_button.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/order_tab_button.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/order_tab_evaluate.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/order_tab_evaluate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/order_tab_ongoing.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/order_tab_ongoing.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/order_tab_order.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/order_tab_order.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/libraries/slidingMenu/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/photo_choose_bg.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/photo_choose_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/anim/photo_dialog_in_anim.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/photo_dialog_in_anim.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/anim/photo_dialog_out_anim.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/photo_dialog_out_anim.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/pom.xml" afterPath="$PROJECT_DIR$/libraries/slidingMenu/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/proguard-rules.pro" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/proguard-rules.pro" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/proguard-rules.pro" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/project.properties" afterPath="$PROJECT_DIR$/libraries/slidingMenu/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/province_data.xml" afterPath="$PROJECT_DIR$/app/src/main/assets/province_data.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/register_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/register_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/layout/render_type_default.xml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/layout/render_type_default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/round_bottombutton_shape.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/round_bottombutton_shape.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/round_cancelshape_bg.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/round_cancelshape_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/round_shape_bg.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/round_shape_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/round_topbutton_shape.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/round_topbutton_shape.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_button.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_button.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_edittext.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_edittext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/animator/scale_with_alpha.xml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/animator/scale_with_alpha.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/show_girdview.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/show_girdview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/show_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/show_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/show_pictureitem.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/show_pictureitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/show_tab.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/show_tab.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_bottom.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_bottom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_bottom.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_bottom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/slidingMenu.iml" afterPath="$PROJECT_DIR$/libraries/slidingMenu/slidingMenu.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/slidingMenu/res/layout/slidingmenumain.xml" afterPath="$PROJECT_DIR$/libraries/slidingMenu/res/layout/slidingmenumain.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/values/style.xml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/values/style.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/tab_bg.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/demo/test.java" afterPath="$PROJECT_DIR$/app/src/main/java/demo/test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/animator/translation_and_rotate.xml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/animator/translation_and_rotate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/values/vpi__defaults.xml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/values/vpi__defaults.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/wheel_bg.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wheel_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/wheel_val.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wheel_val.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/drawable/white_radius.xml" afterPath="$PROJECT_DIR$/libraries/InfiniteIndicator/src/main/res/drawable/white_radius.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DopeMaster.iws" />
@@ -3334,7 +3089,11 @@
       <created>1426996800859</created>
       <updated>1426996800859</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="增加点击订单详情">
+      <created>1427033013069</created>
+      <updated>1427033013069</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -3372,6 +3131,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283082" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17085427" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3919598" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.400335" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3389,7 +3149,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3919598" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
