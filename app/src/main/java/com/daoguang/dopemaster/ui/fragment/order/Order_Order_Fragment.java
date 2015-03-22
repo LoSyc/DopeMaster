@@ -1,11 +1,13 @@
 package com.daoguang.dopemaster.ui.fragment.order;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.SimpleAdapter;
 
 import com.daoguang.dopemaster.R;
@@ -21,7 +23,7 @@ import java.util.Map;
  * 作者:宋益聪
  * 时间：3月2号
  */
-public class Order_Order_Fragment extends Fragment implements Order_Listview.IReflashListener{
+public class Order_Order_Fragment extends Fragment implements Order_Listview.IReflashListener,AdapterView.OnItemClickListener{
 
     SimpleAdapter msimp;
 
@@ -46,6 +48,7 @@ public class Order_Order_Fragment extends Fragment implements Order_Listview.IRe
                         R.id.order_item_team_address, R.id.order_item_team_time});
 
         mlv.setAdapter(msimp);
+        mlv.setOnItemClickListener(this);
         return view;
     }
 
@@ -100,7 +103,7 @@ public class Order_Order_Fragment extends Fragment implements Order_Listview.IRe
      */
     @Override
     public void onReflash() {
-       //下面是模拟数据
+        //下面是模拟数据
         android.os.Handler handler=new android.os.Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -109,5 +112,12 @@ public class Order_Order_Fragment extends Fragment implements Order_Listview.IRe
             }
         },2000);
 
+    }
+
+    //下面是传输数据
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        Intent intent=new Intent(getActivity(),Order_page_item.class);
+        startActivity(intent);
     }
 }

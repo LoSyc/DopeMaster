@@ -33,6 +33,7 @@
         <activity android:name=".ui.activity.home.AnnounceOrderActivity" />
         <activity android:name=".ui.activity.home.SettingActivity" />
         <activity android:name=".ui.activity.RegisterActivity" />
+        <activity android:name="com.daoguang.dopemaster.ui.fragment.order.Order_page_item"/>
         <activity android:name=".ui.activity.home.MaterialRecommendationActivity"/>
         <activity android:name=".ui.activity.home.FindTeamActivity"/>
         <activity android:name=".ui.activity.my.AddrActivity" />

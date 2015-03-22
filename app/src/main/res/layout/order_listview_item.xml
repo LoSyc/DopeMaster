@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#ffffff"
+    android:descendantFocusability="blocksDescendants"
     android:orientation="vertical">
 
     <LinearLayout
@@ -84,6 +85,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
+
         </LinearLayout>
 
     </LinearLayout>
@@ -97,6 +99,8 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:focusable="false"
+            android:clickable="true"
             android:textSize="13sp"
             android:background="@drawable/order_raduis"
             android:id="@+id/order_item_team_comments"
@@ -107,6 +111,8 @@
             android:text="评论" />
 
         <Button
+            android:focusable="false"
+            android:clickable="true"
             android:textSize="13sp"
             android:textColor="#000000"
             android:background="@drawable/order_raduis"
@@ -117,6 +123,8 @@
             android:layout_height="40dp" />
 
         <Button
+            android:focusable="false"
+            android:clickable="true"
             android:textSize="13sp"
             android:textColor="#000000"
             android:background="@drawable/order_raduis"
