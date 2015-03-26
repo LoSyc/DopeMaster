@@ -47,7 +47,7 @@
     <string name="my_province">省市区</string>
     <string name="my_address">街道地址</string>
     <string name="new_address">新建装修地址</string>
-    <string name="empty_view">没有保存的地址</string>
+    <string name="addr_empty_view">没有保存的地址</string>
     <string name="manager_address">地址管理</string>
     <string name="addr_picker_title">请选择省市区</string>
     <string name="operate_addr">选择操作</string>
@@ -56,6 +56,8 @@
     <string name="delete_addr">删除</string>
     <string name="notify_back">地址表单未完成,退出将不会被保存或删除</string>
     <string name="notify">注意:</string>
+    <string name="manager_coupon">优惠券</string>
+    <string name="coupon_empty_view">未获得过优惠券</string>
     <string name="pencil">&#xf129;</string>
     <string name="create_addr">&#xf199;</string>
     <string name="back_addr">&#xf10a;</string>

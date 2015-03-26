@@ -89,7 +89,7 @@
                 android:layout_width="match_parent" >
 
             <RelativeLayout
-                    android:id="@+id/dis_re_layout"
+                    android:id="@+id/my_coupon"
                     android:layout_height="wrap_content"
                     android:layout_width="0dp"
                     android:layout_weight="1"

@@ -44,32 +44,32 @@ public class MyAddrListFragment extends Fragment {
     private int posit;
 
     private class AddressAdapter extends BaseAdapter {
-        private ArrayList<Address> mAddrColles;
-        private Context mContext;
+        private ArrayList<Address> addrColles;
+        private Context context;
 
         public AddressAdapter(Context context, ArrayList<Address> addrColle) {
-            mAddrColles = addrColle;
-            mContext = context;
+            this.addrColles = addrColle;
+            this.context = context;
         }
 
         @Override
         public int getCount() {
-            return mAddrColles.size();
+            return addrColles.size();
         }
 
         @Override
         public Address getItem(int position) {
-            return mAddrColles.get(position);
+            return addrColles.get(position);
         }
 
         @Override
         public long getItemId(int position) {
-            return mAddrColles.indexOf(getItem(position));
+            return addrColles.indexOf(getItem(position));
         }
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            ViewHolder holder = ViewHolder.get(mContext, convertView, parent, R.layout.list_item_addr, position);
+            ViewHolder holder = ViewHolder.get(context, convertView, parent, R.layout.list_item_addr, position);
             holder.getView(R.id.addr_name);
             holder.getView(R.id.client_name);
             holder.getView(R.id.detail_address);
@@ -100,10 +100,10 @@ public class MyAddrListFragment extends Fragment {
         super.onCreateView(inflater, container, savedInstanceState);
         Log.i(TAG, "MyAddrListFragment onCreateView");
         View view = inflater.inflate(R.layout.fragment_addr_list, container, false);
-        listView = (ListView) view.findViewById(R.id.list_view);
+        listView = (ListView) view.findViewById(R.id.addr_list_view);
         adapter = new AddressAdapter(getActivity(), mAddrColle);
         listView.setAdapter(adapter);
-        RelativeLayout emptyView = (RelativeLayout) view.findViewById(R.id.empty_list);
+        RelativeLayout emptyView = (RelativeLayout) view.findViewById(R.id.addr_empty_list);
         listView.setEmptyView(emptyView);
 
         AddressLab addrLab = AddressLab.get(getActivity());

@@ -21,6 +21,7 @@ import android.widget.RelativeLayout;
 import android.widget.TableRow;
 import com.daoguang.dopemaster.R;
 import com.daoguang.dopemaster.ui.activity.my.AddrListActivity;
+import com.daoguang.dopemaster.ui.activity.my.CouponActivity;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 import java.io.File;
@@ -42,7 +43,15 @@ public class MyFragment extends Fragment implements View.OnClickListener {
         View myView = inflater.inflate(R.layout.my_layout, container, false);
         RelativeLayout myhead = (RelativeLayout) myView.findViewById(R.id.head_re_layout);
         // RelativeLayout mycollect= (RelativeLayout) myView.findViewById(R.id.collect_re_layout);
-        //RelativeLayout mydiscount= (RelativeLayout) myView.findViewById(R.id.dis_re_layout);
+        RelativeLayout mMyCoupon = (RelativeLayout) myView.findViewById(R.id.my_coupon);
+        mMyCoupon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity(), CouponActivity.class);
+                startActivity(i);
+            }
+        });
+
         myhead.setOnClickListener(this);
 
         TableRow mMyAddr = (TableRow) myView.findViewById(R.id.my_addr);

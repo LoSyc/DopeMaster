@@ -38,6 +38,7 @@
         <activity android:name=".ui.activity.home.FindTeamActivity"/>
         <activity android:name=".ui.activity.my.AddrActivity" />
         <activity android:name=".ui.activity.my.AddrListActivity" />
+        <activity android:name=".ui.activity.my.CouponActivity" />
     </application>
 
 </manifest>
