@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.daoguang.dopemaster.ui.activity.home.MaterialRecommendationActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#5F97FA">
+
+        <com.daoguang.dopemaster.ui.view.TopBar
+            android:id="@+id/topBar"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            custom:leftIcon="@mipmap/back"
+            custom:titleText="@string/home_material_recommendation"
+            custom:titleTextSize="15sp"
+            custom:titleTextColor="#FFFFFF"
+            custom:leftMargin="15dp"
+            custom:topMargin="2dp"/>
+    </RelativeLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+    <com.etsy.android.grid.StaggeredGridView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="#F2F2F2"
+        android:id="@+id/grid_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:column_count="@integer/grid_column_count"
+        app:item_margin="5dp" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

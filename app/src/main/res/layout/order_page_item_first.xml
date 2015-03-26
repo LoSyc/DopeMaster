@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#45ddcd" />
+
+    <TextView
+        android:id="@+id/order_page_flag"
+        android:text="订单以完成"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="13dp"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="#d1d1d1" />
+
+    <TextView
+        android:id="@+id/order_page_user_number"
+        android:text="13726261175"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="13dp"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/order_page_time_title"
+            android:text="预约时间："
+            android:textSize="15sp"
+            android:textColor="#818181"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="35dp"
+            android:id="@+id/order_page_time"
+            android:text="2015-01-31    12:00"
+            android:textSize="15sp"
+            android:textColor="#818181"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/order_page_address_title"
+            android:text="服务地址："
+            android:textSize="15sp"
+            android:textColor="#818181"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="35dp"
+            android:id="@+id/order_page_address"
+            android:text="福田区景田路与莲花路交汇处景田酒店一楼  深圳景田酒店"
+            android:textSize="15sp"
+            android:textColor="#818181"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="#d1d1d1" />
+
+</LinearLayout>

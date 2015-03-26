@@ -2,102 +2,193 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\avoscloud-sdk\v2.6.11.1\b8661b10f7047d1ac657e0d23131a2e7891481a3\avoscloud-sdk-v2.6.11.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b8661b10f7047d1ac657e0d23131a2e7891481a3">
-        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\avoscloud-sdk-v2.6.11.1-d20cc2a836012f26b0d16ee07f0e683e5f977799.jar" />
-    </item>
-    <item
-        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\DopeMaster.libraries\slidingMenu\unspecified\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="bbc99dbfa0a41eda9af3accb7822511939e48d43">
-        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-2065b216ba206716d185d13a6991f00b863401c5.jar" />
-    </item>
-    <item
-        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\DopeMaster.libraries\InfiniteIndicator\unspecified\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="5614404edef9a51b7623c980f69953b430f0770f">
-        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-662cdff0c03e818df0db44791a4cbb266eb552a9.jar" />
-    </item>
-    <item
-        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-598892d24f35cd3874ae485bb08e59026c5efaaa.jar" />
-    </item>
-    <item
-        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.2.4\3b7f38df6de5dd8b500e602ae8c2dd5ee446f883\httpcore-4.2.4.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="3b7f38df6de5dd8b500e602ae8c2dd5ee446f883">
-        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\httpcore-4.2.4-824a964d40ddfc567899e0d0acdf8584ee16a494.jar" />
-    </item>
-    <item
-        jar="G:\ADT\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-6946be4c504f76119cfac30efb46bf52f9325737.jar" />
-    </item>
-    <item
-        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\library-2.4.0-5f4418a856055eedfe13ab22d294f3bf5cf04996.jar" />
-    </item>
-    <item
-        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.6\a845a88238be0b5be9d238652c1bc0605ef91f52\android-async-http-1.4.6.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
-        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-60348c6acf0e1eda24b94f3c8a6c73de8b6f1fbc.jar" />
-    </item>
-    <item
-        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.2.4\dba4d4d224e2ca872af5be8d2992777583145478\httpmime-4.2.4.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="dba4d4d224e2ca872af5be8d2992777583145478">
-        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\httpmime-4.2.4-092976c458347f89f38c285f6e66a66281f13383.jar" />
-    </item>
-    <item
-        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jar="D:\桌面\taoguang\taoguang1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-46e3c417eb9fc9e7c6d9f670bf2a6b79ca74e4b4.jar" />
+        <dex dex="D:\桌面\taoguang\taoguang1\app\build\intermediates\pre-dexed\debug\classes-d882d1364f67191a0b28d52a5257b8b3d3aea4cc.jar" />
     </item>
     <item
-        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jar="D:\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\avoscloud-sdk\v2.6.11.1\b8661b10f7047d1ac657e0d23131a2e7891481a3\avoscloud-sdk-v2.6.11.1.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-860bc52cf531568049eac0f168c9400d44eeec42.jar" />
+        sha1="b8661b10f7047d1ac657e0d23131a2e7891481a3">
+        <dex dex="D:\桌面\taoguang\taoguang1\app\build\intermediates\pre-dexed\debug\avoscloud-sdk-v2.6.11.1-f2efb4a9e3f2621d5f1834505512e88198568480.jar" />
     </item>
     <item
-        jar="G:\asCode\DopeMaster\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.2\classes.jar"
+        jar="D:\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.6\a845a88238be0b5be9d238652c1bc0605ef91f52\android-async-http-1.4.6.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="803c4c913beac8f7980d680c725a40835d1d7c77">
-        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-881a8e8e01bc33ae50e9237f3fee1b086455bfba.jar" />
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="D:\桌面\taoguang\taoguang1\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-9ae72abfb528e0602280183e7f2f79f7f21c79e8.jar" />
     </item>
     <item
-        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
+        jar="D:\桌面\taoguang\taoguang3_20\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
-        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\picasso-2.4.0-d309035bb4fb6583fec38e2342ec2dd4a4890f0b.jar" />
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\桌面\taoguang\taoguang3_20\app\build\intermediates\pre-dexed\debug\classes-253942321be86e48dcbd20371ca4447b8689aa5a.jar" />
     </item>
     <item
-        jar="C:\Users\joker\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\fastjson\1.1.37-leancloud\f0eb5dd7cf5d5e186a49179c2e956e5a34c71956\fastjson-1.1.37-leancloud.jar"
+        jar="D:\桌面\taoguang\taoguang3_18\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\桌面\taoguang\taoguang3_18\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-40a477cf35cecad79581fc4e12112f409e32ca67.jar" />
+    </item>
+    <item
+        jar="D:\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.2.4\3b7f38df6de5dd8b500e602ae8c2dd5ee446f883\httpcore-4.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3b7f38df6de5dd8b500e602ae8c2dd5ee446f883">
+        <dex dex="D:\桌面\taoguang\taoguang1\app\build\intermediates\pre-dexed\debug\httpcore-4.2.4-cb7699372bd3ce6b274f0d0c1de1c4001d3d0d26.jar" />
+    </item>
+    <item
+        jar="D:\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\fastjson\1.1.37-leancloud\f0eb5dd7cf5d5e186a49179c2e956e5a34c71956\fastjson-1.1.37-leancloud.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="f0eb5dd7cf5d5e186a49179c2e956e5a34c71956">
-        <dex dex="G:\asCode\DopeMaster\app\build\intermediates\pre-dexed\debug\fastjson-1.1.37-leancloud-5bfae01b6ad230839436d6648685a46023e7eff9.jar" />
+        <dex dex="D:\桌面\taoguang\taoguang1\app\build\intermediates\pre-dexed\debug\fastjson-1.1.37-leancloud-b393f342866aab136f653974e10d7aec669a9ea1.jar" />
+    </item>
+    <item
+        jar="D:\桌面\taoguang\taoguang1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\桌面\taoguang\taoguang1\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-9b1d7538567ad82fd1d1a625ab7c78c554d1a5f3.jar" />
+    </item>
+    <item
+        jar="D:\桌面\taoguang\taoguang3_18\app\build\intermediates\exploded-aar\taoguang3_18.libraries\slidingMenu\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2168cf44cd5a51bf8287fb428aee531f1bedf2ed">
+        <dex dex="D:\桌面\taoguang\taoguang3_18\app\build\intermediates\pre-dexed\debug\classes-b2658febc9864e1b81242e0fc14bae6833fd9645.jar" />
+    </item>
+    <item
+        jar="D:\桌面\taoguang\taoguang3_20\app\build\intermediates\exploded-aar\taoguang3_20.libraries\slidingMenu\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="82344549990408fbecc226b23a0ad10ae3ae65a0">
+        <dex dex="D:\桌面\taoguang\taoguang3_20\app\build\intermediates\pre-dexed\debug\classes-997d5ed39505078a018710a0d78b2a10102db3ad.jar" />
+    </item>
+    <item
+        jar="D:\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="D:\桌面\taoguang\taoguang1\app\build\intermediates\pre-dexed\debug\picasso-2.4.0-22c3bf8dcbbc2368660c8d45777f0178455d5ace.jar" />
+    </item>
+    <item
+        jar="D:\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\桌面\taoguang\taoguang1\app\build\intermediates\pre-dexed\debug\library-2.4.0-a70618323f67b75fc381c1aed8e6e24aeb4d58f7.jar" />
+    </item>
+    <item
+        jar="D:\桌面\taoguang\taoguang3_18\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="803c4c913beac8f7980d680c725a40835d1d7c77">
+        <dex dex="D:\桌面\taoguang\taoguang3_18\app\build\intermediates\pre-dexed\debug\classes-4305fd038b751c59ab8daa06240d1a79209b870f.jar" />
+    </item>
+    <item
+        jar="D:\桌面\taoguang\taoguang1\app\build\intermediates\exploded-aar\taoguang1.libraries\slidingMenu\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="93decab4f7749bd990aa6eb36e9b0fc5076fa900">
+        <dex dex="D:\桌面\taoguang\taoguang1\app\build\intermediates\pre-dexed\debug\classes-fb594c553ada1c8a80701a79ff91197ce088e8cf.jar" />
+    </item>
+    <item
+        jar="D:\桌面\taoguang\taoguang3_20\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\桌面\taoguang\taoguang3_20\app\build\intermediates\pre-dexed\debug\classes-4300ca366c5e37a82887beb055d564eaf6ce3a3b.jar" />
+    </item>
+    <item
+        jar="D:\桌面\taoguang\taoguang3_18\app\build\intermediates\exploded-aar\taoguang3_18.libraries\InfiniteIndicator\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a2a59c96601283774a5b54cd1c02505cffee7b51">
+        <dex dex="D:\桌面\taoguang\taoguang3_18\app\build\intermediates\pre-dexed\debug\classes-90d98d601f73d3a74e36014414686ca1c747315c.jar" />
+    </item>
+    <item
+        jar="D:\桌面\taoguang\taoguang1\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="803c4c913beac8f7980d680c725a40835d1d7c77">
+        <dex dex="D:\桌面\taoguang\taoguang1\app\build\intermediates\pre-dexed\debug\classes-db3b40d3864f696a241c2bc981b985117ced69a5.jar" />
+    </item>
+    <item
+        jar="D:\桌面\taoguang\taoguang3_20\app\build\intermediates\exploded-aar\taoguang3_20.libraries\InfiniteIndicator\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a76e53c4947ef8741d7ce93cb411d0aed2f5faa2">
+        <dex dex="D:\桌面\taoguang\taoguang3_20\app\build\intermediates\pre-dexed\debug\classes-88343a952fb8f25507cf4e11c0e922c8154b9546.jar" />
+    </item>
+    <item
+        jar="D:\桌面\taoguang\taoguang3_18\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\桌面\taoguang\taoguang3_18\app\build\intermediates\pre-dexed\debug\classes-c02bda23a8ce455c4c422df575bfa7b86a147876.jar" />
+    </item>
+    <item
+        jar="D:\桌面\taoguang\taoguang1\app\build\intermediates\exploded-aar\taoguang1.libraries\InfiniteIndicator\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="93dc5a4b4b1410ee27e8e56fe78fc1ef6477f085">
+        <dex dex="D:\桌面\taoguang\taoguang1\app\build\intermediates\pre-dexed\debug\classes-3509d74cc4e1e021f91ad9ce6e8cd5d819ca7ded.jar" />
+    </item>
+    <item
+        jar="D:\桌面\taoguang\taoguang3_20\app\build\intermediates\exploded-aar\com.etsy.android.grid\library\1.0.5\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8218789edb56bdcfff7da48e892b37460fc707e2">
+        <dex dex="D:\桌面\taoguang\taoguang3_20\app\build\intermediates\pre-dexed\debug\classes-53b2c357199aca9f2cf1b8ad3fba7a6a47c5301b.jar" />
+    </item>
+    <item
+        jar="D:\桌面\taoguang\taoguang1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\桌面\taoguang\taoguang1\app\build\intermediates\pre-dexed\debug\classes-99f6a0522a4241e1f6f8940db48eaffdb7bebeda.jar" />
+    </item>
+    <item
+        jar="F:\Work_Android_studio\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\桌面\taoguang\taoguang1\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-f6ebb9b667811acdb64e778788c4f39652589a14.jar" />
+    </item>
+    <item
+        jar="D:\桌面\taoguang\taoguang3_18\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\桌面\taoguang\taoguang3_18\app\build\intermediates\pre-dexed\debug\classes-da221202866fe938ba26d041ac72d548e0567ba7.jar" />
+    </item>
+    <item
+        jar="D:\桌面\taoguang\taoguang3_20\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="803c4c913beac8f7980d680c725a40835d1d7c77">
+        <dex dex="D:\桌面\taoguang\taoguang3_20\app\build\intermediates\pre-dexed\debug\classes-a57ec1a145656213ec6c1f58d7df4cbc0cf5932d.jar" />
+    </item>
+    <item
+        jar="D:\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.2.4\dba4d4d224e2ca872af5be8d2992777583145478\httpmime-4.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dba4d4d224e2ca872af5be8d2992777583145478">
+        <dex dex="D:\桌面\taoguang\taoguang1\app\build\intermediates\pre-dexed\debug\httpmime-4.2.4-26751ce3a99e27d0dee162ac8c65b4edaf70594d.jar" />
+    </item>
+    <item
+        jar="D:\桌面\taoguang\taoguang3_20\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\桌面\taoguang\taoguang3_20\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-db870414db7474c4390d8352a270d2a9f2b495d9.jar" />
     </item>
 
 </items>

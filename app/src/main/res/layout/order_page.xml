@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#f1f1f1"
+    android:layout_height="match_parent">
+
+
+    <com.daoguang.dopemaster.ui.view.TopBar
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        custom:titleText="@string/order_tab_string"
+        custom:titleTextSize="15sp"
+        custom:titleTextColor="#FFFFFF"
+        custom:leftMargin="15dp"
+        custom:topMargin="2dp"/>
+
+    <include layout="@layout/order_page_item_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+    <include layout="@layout/order_page_item_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+    <include layout="@layout/order_page_item_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

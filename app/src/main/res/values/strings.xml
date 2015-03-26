@@ -13,18 +13,24 @@
     <string name="home_title_bar">首页</string>
     <string name="home_announce_order">发布装修单</string>
     <string name="home_find_team">寻找装修团队</string>
-    <string name="home_question_answer">装修问答专栏</string>
+    <string name="home_question_answer">装修学堂</string>
     <string name="home_material_recommendation">装修材料推荐</string>
 
-    <string name="home_setting_comment">给一个好评</string>
+    <string name="home_find_team_price">价格</string>
+    <string name="home_find_team_popularity">人气</string>
+    <string name="home_text_view_master">徐师傅</string>
+    <string name="home_text_view_number">接单96次</string>
+
+    <string name="home_setting_comment">去评价一把</string>
     <string name="home_setting_advice_feedback">建议与反馈</string>
     <string name="home_setting_recommend_friend">推荐给好友</string>
     <string name="home_setting_check_update">检查更新</string>
-    <string name="home_setting_version_update">当前版本v1.0</string>
-    <string name="home_setting_service_clause">服务条款</string>
+    <string name="home_setting_delete_cache">清理缓存</string>
+    <string name="home_setting_aboutUs">关于我们</string>
 
     <string name="home_left_choseCity">已选择城市</string>
     <string name="home_left_city">珠海</string>
+    <string name="home_faBu_s">发布装修单</string>
 
     <!--以下是订单页面所用到的String-->
     <string name="order_tab_string">我的订单</string>

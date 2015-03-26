@@ -6,6 +6,7 @@ import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -72,6 +73,19 @@ public class ViewHolder {
      */
     public ViewHolder setText(int viewId,String text) {
         TextView view = getView(viewId);
+        view.setText(text);
+        return this;
+    }
+
+    /**
+     * 为Button设置字符串
+     *
+     * @param viewId
+     * @param text
+     * @return
+     */
+    public ViewHolder setButtonText(int viewId,String text) {
+        Button view = getView(viewId);
         view.setText(text);
         return this;
     }

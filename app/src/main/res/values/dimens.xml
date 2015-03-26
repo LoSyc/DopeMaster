@@ -5,7 +5,10 @@
 
 
     <!-- 自定义常量 -->
-    <dimen name="bottom_bar_height">60dp</dimen>
+    <dimen name="bottom_bar_height">75dp</dimen>
     <dimen name="slidingmenu_offset">150dp</dimen>
     <dimen name="shadow_width">15dp</dimen>
+
+    <dimen name="setting_imgTop">3dp</dimen>
+    <dimen name="setting_linearTop">20dp</dimen>
 </resources>
