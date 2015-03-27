@@ -4,6 +4,32 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+
+    <com.daoguang.dopemaster.ui.view.TopBar
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        custom:leftText="返回"
+        custom:titleText="装修风格"
+        custom:titleTextSize="12sp"
+        custom:rightText="保存"
+        custom:lfTextSize="10sp"
+        custom:titleTextColor="#FFFFFF"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F8F8F8"
+        android:gravity="center">
+       
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择1至2种装修风格"/>
+
+    </RelativeLayout>
+
     <ListView
         android:id="@+id/designLv"
         android:layout_width="match_parent"

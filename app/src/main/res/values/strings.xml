@@ -61,7 +61,7 @@
     <string name="pencil">&#xf129;</string>
     <string name="create_addr">&#xf199;</string>
     <string name="back_addr">&#xf10a;</string>
-
+    <string name="my_nameText">jack</string>
     <!--以下是展示页面所用的String-->
     <string name="show_tab_string">展示</string>
 </resources>

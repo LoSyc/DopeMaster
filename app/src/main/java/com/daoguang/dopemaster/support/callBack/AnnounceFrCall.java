@@ -6,4 +6,5 @@ package com.daoguang.dopemaster.support.callBack;
 public interface AnnounceFrCall {
     public void showHuxingFr();
     public void hideFragment();
+    public void showDesignFr();
 }

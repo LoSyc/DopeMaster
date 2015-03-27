@@ -1,6 +1,7 @@
 package com.daoguang.dopemaster.ui.fragment.home;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -19,10 +20,13 @@ import com.daoguang.dopemaster.ui.view.TopBar;
 /**
  * Created by joker on 2015/3/17.
  */
-public class AnnounceOrdFragment extends Fragment {
+public class AnnounceOrdFragment extends Fragment implements View.OnClickListener{
 
     private TextView danweiTv;
     private View huxingLo;
+    private TextView huxingTv;
+
+    private View designLayout;
 
     private AnnounceFrCall call;
 
@@ -35,17 +39,14 @@ public class AnnounceOrdFragment extends Fragment {
         spanText.setSpan(new SuperscriptSpan(), 1, 2, Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
         danweiTv.append(spanText);
 
+        huxingTv = (TextView) announceOrdLay.findViewById(R.id.huxingTv);
+
         huxingLo = announceOrdLay.findViewById(R.id.huxingId);
-        huxingLo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                switch (v.getId()) {
-                    case R.id.huxingId :
-                        call.showHuxingFr();
-                        break;
-                }
-            }
-        });
+        huxingLo.setOnClickListener(this);
+
+        designLayout = announceOrdLay.findViewById(R.id.designLayout);
+        designLayout.setOnClickListener(this);
+
         TopBar topBar = (TopBar) announceOrdLay.findViewById(R.id.topBar);
         topBar.setOnTopBarClickListener(new TopBar.TopBarClickListener() {
             @Override
@@ -73,5 +74,26 @@ public class AnnounceOrdFragment extends Fragment {
         }
     }
 
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == 1){
+            String evaluate = data
+                    .getStringExtra(HuXingChooseFragment.RESPONSE_EVALUATE);
+            huxingTv.setText(evaluate);
+        }
+    }
 
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.huxingId :
+                call.showHuxingFr();
+                break;
+
+            case R.id.designLayout :
+                call.showDesignFr();
+                break;
+        }
+    }
 }

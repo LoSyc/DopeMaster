@@ -10,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         custom:leftText="返回"
-        custom:rightText="保存"
+        custom:titleText="户型"
+        custom:titleTextSize="12sp"
         custom:lfTextSize="10sp"
         custom:titleTextColor="#FFFFFF"/>
 
@@ -19,7 +20,7 @@
         android:layout_height="60dp"
         android:gravity="center"
         android:background="#FFFFFF">
-w
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -38,7 +39,6 @@ w
         android:layout_marginLeft="20dp"
         android:numColumns="3"
         android:horizontalSpacing="5dp"
-        android:verticalSpacing="10dp">
-    </GridView>
+        android:verticalSpacing="10dp"/>
 
 </LinearLayout>

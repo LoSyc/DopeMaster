@@ -8,6 +8,7 @@ import com.daoguang.dopemaster.R;
 import com.daoguang.dopemaster.base.BaseActivity;
 import com.daoguang.dopemaster.support.callBack.AnnounceFrCall;
 import com.daoguang.dopemaster.ui.fragment.home.AnnounceOrdFragment;
+import com.daoguang.dopemaster.ui.fragment.home.DesiginChooseFragment;
 import com.daoguang.dopemaster.ui.fragment.home.HuXingChooseFragment;
 
 /**
@@ -18,6 +19,8 @@ public class AnnounceOrderActivity extends BaseActivity implements AnnounceFrCal
 
     private AnnounceOrdFragment announceOrdFragment;
     private HuXingChooseFragment huxingChooseFr;
+    private DesiginChooseFragment desiginChooseFragment;
+
     private FragmentManager fragmentManager;
     private FragmentTransaction transaction;
 
@@ -45,18 +48,28 @@ public class AnnounceOrderActivity extends BaseActivity implements AnnounceFrCal
         if(null != huxingChooseFr){
             transaction.hide(huxingChooseFr);
         }
+
+        if(null != desiginChooseFragment){
+            transaction.hide(desiginChooseFragment);
+        }
     }
 
 
     @Override
     public void showHuxingFr() {
        switchFragment(1);
+       huxingChooseFr.setTargetFragment(announceOrdFragment,1);
     }
 
     @Override
     public void hideFragment() {
         hideFragments(transaction);
         switchFragment(0);
+    }
+
+    @Override
+    public void showDesignFr() {
+        switchFragment(2);
     }
 
     public void switchFragment(int id){
@@ -81,6 +94,15 @@ public class AnnounceOrderActivity extends BaseActivity implements AnnounceFrCal
                     transaction.show(huxingChooseFr);
                 }
                 break;
+
+            case 2 :
+                hideFragments(transaction);
+                if(null == desiginChooseFragment){
+                    desiginChooseFragment = new DesiginChooseFragment();
+                    transaction.add(R.id.announce_orderFr,desiginChooseFragment);
+                }else {
+                    transaction.show(desiginChooseFragment);
+                }
         }
 
         transaction.commit();

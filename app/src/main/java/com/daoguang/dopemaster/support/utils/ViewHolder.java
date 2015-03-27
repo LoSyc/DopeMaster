@@ -6,7 +6,6 @@ import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -17,6 +16,7 @@ public class ViewHolder {
     private final SparseArray<View> mViews;
     private int mPosition;
     private View mConvertView;
+
 
     private ViewHolder(Context context,ViewGroup parent,int layoutId,int position) {
         this.mPosition = position;
@@ -77,18 +77,12 @@ public class ViewHolder {
         return this;
     }
 
-    /**
-     * 为Button设置字符串
-     *
-     * @param viewId
-     * @param text
-     * @return
-     */
-    public ViewHolder setButtonText(int viewId,String text) {
-        Button view = getView(viewId);
-        view.setText(text);
+    public ViewHolder setTextColor(int viewId,int color) {
+        TextView view = getView(viewId);
+        view.setTextColor(color);
         return this;
     }
+
 
     /**
      * 为ImageView设置图片

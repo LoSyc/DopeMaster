@@ -2,11 +2,109 @@
 <items version="2" >
 
     <item
-        jar="D:\DELL\Java\IdeaProjects\Android Studio\DopeMaster\app\build\intermediates\exploded-aar\com.etsy.android.grid\library\1.0.5\classes.jar"
+        jar="C:\Users\Administrator.ZGC-20140913WIE\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\pre-dexed\debug\library-2.4.0-97be3dc510132bc52ff9e87eace9e300cf43212e.jar" />
+    </item>
+    <item
+        jar="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-f6fe06311844aea47877ee5c7272f5e79cde48d1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.ZGC-20140913WIE\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\avoscloud-sdk\v2.6.11.1\b8661b10f7047d1ac657e0d23131a2e7891481a3\avoscloud-sdk-v2.6.11.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b8661b10f7047d1ac657e0d23131a2e7891481a3">
+        <dex dex="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\pre-dexed\debug\avoscloud-sdk-v2.6.11.1-795922403b5b0de01b0341b0f15d6cf56becf198.jar" />
+    </item>
+    <item
+        jar="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\exploded-aar\DopeMaster.libraries\InfiniteIndicator\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6e58c95e405058cdbcdae579d0a08c02973262eb">
+        <dex dex="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-0a2e23f793ee9a044e59cb7f42429fb64b84a5aa.jar" />
+    </item>
+    <item
+        jar="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="803c4c913beac8f7980d680c725a40835d1d7c77">
+        <dex dex="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-633f305544910e122d5af04125c259f1564a72ed.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.ZGC-20140913WIE\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.6\a845a88238be0b5be9d238652c1bc0605ef91f52\android-async-http-1.4.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-fc5e69979696158abaa2884e8f57c832b5236bd4.jar" />
+    </item>
+    <item
+        jar="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-d6eae5860285eecb9f5626c70ccefc4f5fb134ce.jar" />
+    </item>
+    <item
+        jar="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-9e5aaa21eb55cd5240b996a69b08bac8b416042a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.ZGC-20140913WIE\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.2.4\dba4d4d224e2ca872af5be8d2992777583145478\httpmime-4.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dba4d4d224e2ca872af5be8d2992777583145478">
+        <dex dex="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\pre-dexed\debug\httpmime-4.2.4-6959ab674f91ea6ba16ad3b26539cf9bd6f46d2d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.ZGC-20140913WIE\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\fastjson\1.1.37-leancloud\f0eb5dd7cf5d5e186a49179c2e956e5a34c71956\fastjson-1.1.37-leancloud.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f0eb5dd7cf5d5e186a49179c2e956e5a34c71956">
+        <dex dex="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\pre-dexed\debug\fastjson-1.1.37-leancloud-994fd6ca57507095f204f4c4785188adffd0685f.jar" />
+    </item>
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-aa16b3cf885393ef74ba8407c65bcf20627dd05b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.ZGC-20140913WIE\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\pre-dexed\debug\picasso-2.4.0-235dfe128c7ad644eea1884c420ca76a788970f3.jar" />
+    </item>
+    <item
+        jar="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\exploded-aar\DopeMaster.libraries\slidingMenu\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="830e855977151fd680c22e82f159d98d376e7330">
+        <dex dex="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-ae96319c952011dd05523a53e6fea8b9b2c8452e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.ZGC-20140913WIE\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.2.4\3b7f38df6de5dd8b500e602ae8c2dd5ee446f883\httpcore-4.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3b7f38df6de5dd8b500e602ae8c2dd5ee446f883">
+        <dex dex="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\pre-dexed\debug\httpcore-4.2.4-e83d268c49eb9b68cf1a19e417bc1e977cdd97d2.jar" />
+    </item>
+    <item
+        jar="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\exploded-aar\com.etsy.android.grid\library\1.0.5\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="8218789edb56bdcfff7da48e892b37460fc707e2">
-        <dex dex="D:\DELL\Java\IdeaProjects\Android Studio\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-bda5760ea80c01c2ca4f49eb3cc302f114f19471.jar" />
+        <dex dex="D:\MyAndroidCodes\DopeMaster\app\build\intermediates\pre-dexed\debug\classes-9840cb7de86f44ec7ed8aee1a8f3b94c0f9ce7d9.jar" />
     </item>
 
 </items>

@@ -16,11 +16,11 @@
         custom:leftMargin="15dp"
         custom:topMargin="2dp"/>
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:orientation="horizontal">
+        android:paddingRight="10dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -29,21 +29,23 @@
             android:textSize="20sp"
             android:text="面积"/>
 
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="20dp"
-            android:layout_marginLeft="186dp"
-            android:layout_marginTop="5dp"
-            android:background="@null"
-            android:hint="请输入面积"/>
+            <TextView
+                android:id="@+id/mi_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textSize="13sp"/>
 
-        <TextView
-            android:id="@+id/mi_id"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:textSize="20sp"/>
-    </LinearLayout>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_toLeftOf="@id/mi_id"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:hint="请输入面积"/>
+
+    </RelativeLayout>
 
     <TextView
         android:layout_width="match_parent"
@@ -51,12 +53,12 @@
         android:layout_marginTop="15dp"
         android:background="#B6B6B6" />
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/huxingId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:orientation="horizontal">
+        android:paddingRight="10dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -66,13 +68,14 @@
             android:text="户型"/>
 
         <TextView
+            android:id="@+id/huxingTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="260dp"
+            android:layout_alignParentRight="true"
             android:textSize="20sp"
             android:textColor="#B6B6B6"
             android:text="一居"/>
-    </LinearLayout>
+    </RelativeLayout>
 
     <TextView
         android:layout_width="match_parent"
@@ -80,11 +83,12 @@
         android:layout_marginTop="15dp"
         android:background="#B6B6B6" />
 
-    <LinearLayout
+    <RelativeLayout
+        android:id="@+id/designLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:orientation="horizontal">
+        android:paddingRight="10dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -94,21 +98,25 @@
             android:text="装修风格"/>
 
         <TextView
+            android:id="@+id/designTv2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="178dp"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp"
+            android:textColor="#B6B6B6"
+            android:text="简约"/>
+
+        <TextView
+            android:id="@+id/designTv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/designTv2"
+            android:layout_marginRight="10dp"
             android:textSize="20sp"
             android:textColor="#B6B6B6"
             android:text="现代"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:textSize="20sp"
-            android:textColor="#B6B6B6"
-            android:text="简约"/>
-    </LinearLayout>
+    </RelativeLayout>
 
     <TextView
         android:layout_width="match_parent"
@@ -116,11 +124,11 @@
         android:layout_marginTop="15dp"
         android:background="#B6B6B6" />
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:orientation="horizontal">
+        android:paddingRight="10dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -132,11 +140,11 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="20dp"
-            android:layout_marginLeft="178dp"
+            android:layout_alignParentRight="true"
             android:layout_marginTop="5dp"
             android:background="@null"
             android:hint="请输入地址"/>
-    </LinearLayout>
+    </RelativeLayout>
 
     <TextView
         android:layout_width="match_parent"
@@ -144,11 +152,11 @@
         android:layout_marginTop="15dp"
         android:background="#B6B6B6" />
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:orientation="horizontal">
+        android:paddingRight="10dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -160,11 +168,11 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="20dp"
-            android:layout_marginLeft="148dp"
+            android:layout_alignParentRight="true"
             android:layout_marginTop="5dp"
             android:background="@null"
             android:hint="请输入联系方式"/>
-    </LinearLayout>
+    </RelativeLayout>
 
     <Button
         android:id="@+id/loginButton"

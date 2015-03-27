@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    android:orientation="vertical">
+    <LinearLayout
+    android:layout_height="50dp"
+    android:layout_width="fill_parent"
+    android:background="#5F97FA">
+    <RelativeLayout
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+        <ImageView
+            android:id="@+id/back_name"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="14dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昵称修改"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/sava_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="14dp"
+            android:text="保存"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/my_name_editText"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="@string/my_nameText"
+            android:textColor="#525252"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_bg"/>
+    </RelativeLayout>
+</LinearLayout>
